@@ -3,6 +3,29 @@
 StageFlow reste gratuit, facultatif et utilisable seul. Cette corrective Windows
 améliore les longues sessions de télécommande et la lisibilité de la suite.
 
+## Centre de connexion et télécommandes
+
+- **Connexion StageFlow** garde son nom dans le bandeau, avec l’état et les
+  compteurs visibles séparément. Le centre propose **StageFlow LIVE** et
+  **Télécommande StageFlow**, avec le QR directement dans la page.
+- **Retour au projet** ferme le centre sans arrêter la session. Les commandes
+  restent accessibles dans une petite fenêtre et dans les deux langues/thèmes.
+- Sur téléphone ou tablette, une carte StageMark ou StageMon indisponible
+  explique pourquoi et quoi vérifier. Lire cette explication ne demande aucun
+  accès et n’active aucun service.
+- L’ouverture du contrôleur conserve les droits de l’application choisie.
+  Un changement de poste cible ou de session retire l’ancien contrôleur. Une
+  perte de connexion à StageFlow le retire également et affiche la cause.
+- La liaison utilise la télécommande native de StageMark ou StageMon : elle
+  ne démarre ni l’audio ni la projection. Les accès autonomes restent possibles.
+- Le guide commun français/anglais explique ces parcours et distingue les
+  versions Windows actuelles des paquets Mac conservés.
+
+Si vous aviez déjà installé 2027.0.2, téléchargez de nouveau l’installateur de
+cette release et réinstallez-le après avoir enregistré et fermé StageFlow.
+Le numéro étant identique, la mise à jour numérique ne propose pas forcément
+cette nouvelle fabrication. Les fichiers SHA-256 permettent de l’identifier.
+
 ## Correctif de stabilité du 6 septembre 2026
 
 Cette nouvelle fabrication conserve le numéro **2027.0.2**. Elle empêche une
@@ -65,6 +88,29 @@ sur téléphone, réseau de show, projecteur ou interface audio.
 # StageFlow v2027.0.2 - Windows
 
 StageFlow remains free, optional and fully standalone.
+
+## Connection centre and remote controls
+
+- **StageFlow connection** keeps its name in the header, with separate status
+  and counts. The centre offers **StageFlow LIVE** and **StageFlow remote
+  control**, including the QR directly on the page.
+- **Back to project** closes the centre without stopping the session. Controls
+  remain accessible in narrow windows, both languages and both themes.
+- Unavailable StageMark and StageMon mobile cards explain the reason and the
+  next useful action. Reading this explanation requests no access and starts
+  no service.
+- Opening a controller preserves the selected application's permissions.
+  Changing the target workstation or session removes the previous controller.
+  Losing the StageFlow connection also removes it and explains the situation.
+- Handoff uses the real StageMark or StageMon remote. It starts neither audio
+  nor projection; standalone remote access remains available.
+- The shared French/English guide explains these workflows and distinguishes
+  current Windows versions from retained Mac packages.
+
+If you already installed 2027.0.2, download this release's installer again and
+reinstall after saving your work and closing StageFlow. Because the version
+number is unchanged, the numeric updater may not offer this new build. The
+SHA-256 files identify it precisely.
 
 ## Stability fix — 6 September 2026
 

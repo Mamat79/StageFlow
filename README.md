@@ -188,7 +188,7 @@ sans que StageFlow soit lancé.
 [Illustrated guide in English](guides/SiLeMIO-Suite-Guide-EN.pdf)
 
 - [StageDesk — transférer labels et réglages entre consoles et logiciels](https://github.com/Mamat79/StageDesk/releases/latest)
-- [StageMark — dessiner, implanter et projeter des repères](https://github.com/Mamat79/StageMark/releases/latest)
+- [StageMark — dessiner, implanter et projeter des repères](https://github.com/Mamat79/StageMark/releases)
 - [StageMon — préparer les écoutes et les piloter en direct](https://github.com/Mamat79/StageMon/releases/latest)
 - [Dante Config Editor — préparer un réseau Dante hors ligne](https://github.com/Mamat79/Dante-Config-Editor/releases/latest)
 

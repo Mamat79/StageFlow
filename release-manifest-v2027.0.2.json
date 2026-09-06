@@ -1,51 +1,51 @@
 {
   "application": "StageFlow",
   "version": "2027.0.2",
-  "buildIdentity": "2027.0.2+a78f2035f07951553670c9459ceaac82cde0198f",
-  "buildPurpose": "Windows participant-list crash hotfix; same public version, new source revision and binary hashes.",
+  "buildIdentity": "2027.0.2+523844287cf096c229e104e71d2654d8de31d3fd",
+  "productSourceCommit": "523844287cf096c229e104e71d2654d8de31d3fd",
+  "buildPurpose": "Unified Windows connection centre and scoped native mobile handoffs; retains participant crash fix.",
   "tag": "v2027.0.2",
   "platform": "windows",
-  "releaseUrl": "https://github.com/Mamat79/StageFlow/releases/tag/v2027.0.2",
-  "productSourceCommit": "a78f2035f07951553670c9459ceaac82cde0198f",
   "architecture": "x64",
   "fileVersion": "2027.0.2.0",
+  "releaseUrl": "https://github.com/Mamat79/StageFlow/releases/tag/v2027.0.2",
   "authenticode": "NotSigned",
   "shortcut": "StageFlow v2027",
   "guidesEdition": "2027.2",
   "macos": {
-    "version": "2027.0.1",
+    "unchanged": true,
     "releaseUrl": "https://github.com/Mamat79/StageFlow/releases/tag/v2027.0.1",
-    "unchanged": true
+    "version": "2027.0.1"
   },
   "assets": [
     {
       "name": "Guide-Suite-SiLeMIO-FR.pdf",
-      "bytes": 405754,
-      "sha256": "E438D52A1012E2C91F9AAF935DC9DB16EE77E9989EDA692A26A27AC9BF75FC49",
+      "bytes": 406020,
+      "sha256": "31781CCE45374A8FABD0F1528CE819F38B6B5781BB8BDF197AA0F44B15F5CAFE",
       "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/Guide-Suite-SiLeMIO-FR.pdf"
     },
     {
       "name": "README.md",
-      "bytes": 16578,
-      "sha256": "820FAFC0F6AD3083C1230B69A50EBB0E9B1289195B78880F553DF6ABA4BAC218",
+      "bytes": 16896,
+      "sha256": "D901878758735AF0ED345F1BB8E36678F3BB144DB105D57633B8B262441094A8",
       "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/README.md"
     },
     {
       "name": "RELEASE_NOTES_2027.0.2.md",
-      "bytes": 5879,
-      "sha256": "B2C98DABC3DB59385F4525451E0AE667834B31324DB728A056FE6B07BE82BC7F",
+      "bytes": 8771,
+      "sha256": "6ED599EA6378212F15A1B72B95B32D29103F1E658756020D574229DB974C087F",
       "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/RELEASE_NOTES_2027.0.2.md"
     },
     {
       "name": "SiLeMIO-StageFlow.streamDeckPlugin",
       "bytes": 62785,
-      "sha256": "86BD358D33297663042DCE60F5C98CBC0EBE663B1FD6990D7890719DF56D47FF",
+      "sha256": "8BE13BE4D9E101D54EC59145C5E6661F3752C24900A410BD92DAD356441FFEE3",
       "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/SiLeMIO-StageFlow.streamDeckPlugin"
     },
     {
       "name": "SiLeMIO-Suite-Guide-EN.pdf",
-      "bytes": 363318,
-      "sha256": "104D554C08F886032345EEF7EC98CFBF2DDDB283D6EDEE55E044CB3206953DBC",
+      "bytes": 363562,
+      "sha256": "33DFF9A840FDDDEC8BA0575B904B050014B0960ECA170D4C0316CD1B63475BA9",
       "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/SiLeMIO-Suite-Guide-EN.pdf"
     },
     {
@@ -56,36 +56,36 @@
     },
     {
       "name": "StageFlow-Setup.exe",
-      "bytes": 60440366,
-      "sha256": "DA0E28A64DC091BB31C8A9F358F062B97290E1AFC9273379ADFD11B874830F53",
+      "bytes": 60449811,
+      "sha256": "7B3A3C40894563515A24AFE1FEDBBFBC92484798D948E2EB921F6EC6D8FA23B3",
       "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/StageFlow-Setup.exe"
     },
     {
       "name": "StageFlow-Setup.exe.sha256",
       "bytes": 86,
-      "sha256": "A2C82CD619BCB0CC175FAFA2B054CAAE1FC4085015679689EEA3739CD2570220",
+      "sha256": "3BD38A6E98D41D44B2F824FCF28BD8DE33F954D0891D73FA8F71090ECFEC8EF5",
       "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/StageFlow-Setup.exe.sha256"
     },
     {
       "name": "suite-guides-manifest.json",
       "bytes": 3032,
-      "sha256": "40AE77C353922CB3BB2FAF5BE0F2AFF86A0BB6C72E22CB41A6FC8C345E0F6BF9",
+      "sha256": "0D874737844A547F7A069AA106D3B342BA4BBB60B8FEE02EBE57C19AB4A2582D",
       "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/suite-guides-manifest.json"
     }
   ],
   "verification": {
-    "participantTemplateWpfTestsPassed": 4,
-    "participantTemplateLegacyNegativeControls": 2,
-    "desktopCoreTestsPassed": 103,
-    "installerPreflightCompiled": true,
-    "sourceNetworkingProjectAndRemoteLogicUnchanged": true,
-    "nativeApplicationLaunchedForThisHotfix": false,
-    "userSessionModified": false
+    "stageMonInteropAssertionsPassed": 40,
+    "installerCloseGuardCompiled": true,
+    "dotnetTestsPassed": 335,
+    "guidePagesVisuallyReviewed": 28,
+    "stageMarkInteropScenariosPassed": 3,
+    "mobileJavascriptTestsPassed": 30,
+    "physicalAcceptanceClaimed": false
   },
   "limitations": [
-    "Existing 2027.0.2 installations compare public version numbers only; this same-version build requires explicit replacement using the verified installer.",
-    "Software tests materialize the actual WPF participant templates without opening a user window; no new live network or physical device acceptance is claimed.",
-    "The prior intermittent rendering after automated capture remains undiagnosed; no graphics or operating-system fix is claimed.",
-    "The connection-layout and mobile-editing work in progress is not included in this hotfix."
+    "Existing installations with the same version require explicit redownload and reinstall.",
+    "Local fixture interoperability is not physical phone, two-PC LAN, audio or projection acceptance.",
+    "WPF content tests create no native window; no native DPI or graphics-driver fix is claimed.",
+    "Existing macOS packages remain unchanged; a Mac source compilation is not a new Mac package."
   ]
 }
