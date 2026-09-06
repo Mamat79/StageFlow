@@ -13,11 +13,12 @@
   <a href="https://github.com/Mamat79/StageFlow/releases/latest"><strong>⬇ Télécharger StageFlow</strong></a>
 </p>
 
-**[Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.0.1/StageFlow-Setup.exe)** ·
-**[Mac Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.0.1/StageFlow-2027.0.1-macos-arm64.dmg)** ·
-**[Mac Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.0.1/StageFlow-2027.0.1-macos-x64.dmg)**
+**[Windows v2027.0.2](https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/StageFlow-Setup.exe)** ·
+**[Mac Apple Silicon v2027.0.1](https://github.com/Mamat79/StageFlow/releases/download/v2027.0.1/StageFlow-2027.0.1-macos-arm64.dmg)** ·
+**[Mac Intel v2027.0.1](https://github.com/Mamat79/StageFlow/releases/download/v2027.0.1/StageFlow-2027.0.1-macos-x64.dmg)**
 
-Version actuelle : **2027.0.1**. Le nom affiché reste **StageFlow v2027**.
+Les versions Windows et Mac sont livrées séparément. Le nom affiché reste
+**StageFlow v2027** ; les numéros exacts ci-dessus identifient chaque paquet.
 
 ---
 
@@ -109,7 +110,8 @@ technique dans AutoCAD.
 
 ## Mode LIVE ou travail manuel
 
-Ouvrez **Session StageFlow LIVE** lorsque StageFlow doit coordonner le show. Les pages
+Sous Windows, ouvrez **Connexion StageFlow** (sur Mac : **Session StageFlow LIVE**)
+lorsque StageFlow doit coordonner le show. Les pages
 de groupes, labels, micros, commentaires et choix de paires communes sont alors
 publiés automatiquement et les logiciels compatibles suivent le projet en
 temps réel.
@@ -133,8 +135,8 @@ rejouées au retour.
 
 ## Un QR code, toutes les télécommandes
 
-StageFlow peut devenir la console centrale du poste. Ouvrez **Session StageFlow
-LIVE > Téléphones et tablettes**,
+StageFlow peut devenir la console centrale du poste. Ouvrez **Connexion StageFlow
+> Téléphones et tablettes** sous Windows, ou **Session StageFlow LIVE** sur Mac,
 choisissez le réseau du téléphone et scannez un seul QR code. Le portail mobile
 propose :
 
@@ -187,7 +189,7 @@ sans que StageFlow soit lancé.
 
 - [StageDesk — transférer labels et réglages entre consoles et logiciels](https://github.com/Mamat79/StageDesk/releases/latest)
 - [StageMark — dessiner, implanter et projeter des repères](https://github.com/Mamat79/StageMark/releases/latest)
-- [StageMon — préparer deux écoutes et les piloter en direct](https://github.com/Mamat79/StageMon/releases/latest)
+- [StageMon — préparer les écoutes et les piloter en direct](https://github.com/Mamat79/StageMon/releases/latest)
 - [Dante Config Editor — préparer un réseau Dante hors ligne](https://github.com/Mamat79/Dante-Config-Editor/releases/latest)
 
 ## Installation Windows
@@ -201,12 +203,15 @@ Le raccourci est **StageFlow v2027**. L'installateur ne ferme pas automatiquemen
 vos logiciels et préserve les projets et réglages utilisateur. Fermez StageFlow
 vous-même après avoir enregistré avant de remplacer une version ouverte.
 
-Le menu **Aide** et la touche **F1** ouvrent un guide directement dans
-l'application. Les mises à jour peuvent être recherchées depuis StageFlow.
+Le bouton **Guide** ouvre le guide illustré de toute la suite. **Aide** et la
+touche **F1** ouvrent l'aide propre à StageFlow. Le bandeau indique le thème
+actuel, la langue, la connexion et les alertes ; les commandes se replient sur
+une seconde ligne lorsque nécessaire. Les mises à jour sont accessibles dans
+StageFlow.
 
 ## Installation macOS
 
-StageFlow v2027 est disponible pour **macOS 14 ou ultérieur**, en deux éditions
+StageFlow v2027.0.1 est disponible pour **macOS 14 ou ultérieur**, en deux éditions
 autonomes : **Apple Silicon** (puces M) et **Intel**. Choisissez le téléchargement
 adapté en haut de cette page, ouvrez le DMG et glissez **StageFlow.app** dans
 Applications. Enregistrez et quittez une version déjà ouverte avant de la remplacer.
@@ -218,9 +223,8 @@ Le mode compact garde la console sous la main ; sur un petit écran, la console
 se replie pour laisser de la place au patch. Le plugin Stream Deck Mac est inclus.
 
 📘 [Prise en main macOS — français et anglais](guides/StageFlow-macOS.html)
-complète les guides communs 2027.1 de la suite.
-Elle précise les raccourcis Mac, les commandes, les mises à jour et les
-différences d'ouverture des autres applications.
+complète les guides communs de la suite. Elle précise les raccourcis Mac, les
+commandes, les mises à jour et les différences d'ouverture des applications.
 
 **Sécurité et limites :** cette édition possède une signature d'intégrité
 ad-hoc, sans signature Developer ID ni notarisation Apple. macOS peut bloquer
@@ -228,6 +232,7 @@ son ouverture : vérifiez la source officielle et suivez uniquement la procédur
 d'ouverture autorisée par macOS, sans désactiver ses protections globales.
 Le connecteur AutoCAD reste réservé à AutoCAD 2026 Windows. Vérifiez MIDI,
 Stream Deck, audio et projection sur votre propre matériel avant exploitation.
+La corrective Windows 2027.0.2 ne modifie pas ce paquet Mac.
 
 ---
 
@@ -282,12 +287,17 @@ Stream Deck plugin. The same command set can change StageFlow groups, move
 through StageMark cues and operate the main StageMon listening controls while
 the applications share a LIVE project.
 
+On Windows 2027.0.2, **StageFlow connection** centralizes project/LIVE state,
+workstations and QR access. **Guide** opens the suite guide and **Help** opens
+StageFlow's own help. The header shows the current theme and language; alert
+emission can be paused and resumed explicitly without replaying past changes.
+
 This public repository contains Windows and macOS downloads. The source code is
 maintained separately.
 
 ### Install on Mac
 
-**macOS 14 or later** is supported, with separate self-contained
+**macOS 14 or later** is supported by StageFlow v2027.0.1, with separate
 [Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.0.1/StageFlow-2027.0.1-macos-arm64.dmg)
 and [Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.0.1/StageFlow-2027.0.1-macos-x64.dmg)
 downloads. Open the matching DMG and drag **StageFlow.app** into Applications.
@@ -300,14 +310,15 @@ suite console folds on small displays to keep the patch usable and remains
 accessible in compact mode. The Mac Stream Deck plugin is included.
 
 [Getting started on macOS — English / French](guides/StageFlow-macOS.html)
-supplements the shared suite guides released with the Windows edition and
-explains Mac shortcuts, updates and application-launch differences.
+supplements the shared suite guides and explains Mac shortcuts, updates and
+application-launch differences.
 
 **Security and limits:** this edition is ad-hoc integrity-signed, not Developer
 ID signed or Apple-notarized. macOS may block it: verify the official source
 and use only the opening procedure permitted by macOS, without disabling
 system-wide protection. The AutoCAD connector remains Windows-only. Check
 MIDI, Stream Deck, audio and projection on your own hardware before live use.
+The Windows 2027.0.2 corrective release does not change this Mac package.
 
 ---
 

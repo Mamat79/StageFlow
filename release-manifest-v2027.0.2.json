@@ -1,0 +1,86 @@
+{
+  "application": "StageFlow",
+  "version": "2027.0.2",
+  "tag": "v2027.0.2",
+  "platform": "windows",
+  "releaseUrl": "https://github.com/Mamat79/StageFlow/releases/tag/v2027.0.2",
+  "productSourceCommit": "e3e16e2c06e5ca51ac42699296a26b23a40c9b81",
+  "architecture": "x64",
+  "fileVersion": "2027.0.2.0",
+  "authenticode": "NotSigned",
+  "shortcut": "StageFlow v2027",
+  "guidesEdition": "2027.2",
+  "macos": {
+    "version": "2027.0.1",
+    "unchanged": true,
+    "releaseUrl": "https://github.com/Mamat79/StageFlow/releases/tag/v2027.0.1"
+  },
+  "assets": [
+    {
+      "name": "Guide-Suite-SiLeMIO-FR.pdf",
+      "bytes": 405754,
+      "sha256": "E438D52A1012E2C91F9AAF935DC9DB16EE77E9989EDA692A26A27AC9BF75FC49",
+      "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/Guide-Suite-SiLeMIO-FR.pdf"
+    },
+    {
+      "name": "README.md",
+      "bytes": 16578,
+      "sha256": "820FAFC0F6AD3083C1230B69A50EBB0E9B1289195B78880F553DF6ABA4BAC218",
+      "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/README.md"
+    },
+    {
+      "name": "RELEASE_NOTES_2027.0.2.md",
+      "bytes": 4197,
+      "sha256": "EF3EF8779FC8127B8190C8BA416333E21C59414243DB20755C94CC7C72745B64",
+      "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/RELEASE_NOTES_2027.0.2.md"
+    },
+    {
+      "name": "SiLeMIO-StageFlow.streamDeckPlugin",
+      "bytes": 62751,
+      "sha256": "6CC6947F046FC3ED8A09581E126A43874FFFDA5F973112FEDD3377DA4FDC68F3",
+      "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/SiLeMIO-StageFlow.streamDeckPlugin"
+    },
+    {
+      "name": "SiLeMIO-Suite-Guide-EN.pdf",
+      "bytes": 363318,
+      "sha256": "104D554C08F886032345EEF7EC98CFBF2DDDB283D6EDEE55E044CB3206953DBC",
+      "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/SiLeMIO-Suite-Guide-EN.pdf"
+    },
+    {
+      "name": "stageflow-logo.png",
+      "bytes": 27680,
+      "sha256": "19BDAC59E70066F8DA2C458CF4375B55DA8472E331CDFC564E4B88525AFFE9F2",
+      "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/stageflow-logo.png"
+    },
+    {
+      "name": "StageFlow-Setup.exe",
+      "bytes": 60434987,
+      "sha256": "C3AD5731862F2BF59264297C7D712A5CBE32955F08D3AF114F0275D9E4987F9F",
+      "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/StageFlow-Setup.exe"
+    },
+    {
+      "name": "StageFlow-Setup.exe.sha256",
+      "bytes": 86,
+      "sha256": "A81DC4E9B2A5D74552D519C3A29FF7278271A636A38B68B5810844EDF87968E2",
+      "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/StageFlow-Setup.exe.sha256"
+    },
+    {
+      "name": "suite-guides-manifest.json",
+      "bytes": 3032,
+      "sha256": "40AE77C353922CB3BB2FAF5BE0F2AFF86A0BB6C72E22CB41A6FC8C345E0F6BF9",
+      "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/suite-guides-manifest.json"
+    }
+  ],
+  "verification": {
+    "previousCandidateDotNetTests": 286,
+    "previousCandidateJavaScriptTests": 19,
+    "finalWordingTargetedTests": 20,
+    "nativeAutonomousConnectionChecked": true,
+    "userConfirmedCompleteInterfaceAfterRestartWithoutAutomatedCapture": true
+  },
+  "limitations": [
+    "Intermittent native rendering after automated capture was observed. Its exact cause remains undetermined; no graphics or operating-system fix is claimed.",
+    "A complete visual FR/EN, light/dark and DPI comparison was not completed in this pass.",
+    "No new physical phone, audio, projection, Stream Deck, MIDI or AutoCAD acceptance was performed."
+  ]
+}
