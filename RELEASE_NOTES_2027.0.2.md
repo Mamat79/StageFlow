@@ -3,6 +3,22 @@
 StageFlow reste gratuit, facultatif et utilisable seul. Cette corrective Windows
 améliore les longues sessions de télécommande et la lisibilité de la suite.
 
+## Correctif de stabilité du 6 septembre 2026
+
+Cette nouvelle fabrication conserve le numéro **2027.0.2**. Elle empêche une
+fermeture de StageFlow lors de l’affichage ou de l’actualisation des participants
+dans **Connexion StageFlow**, notamment quand StageMark puis StageMon rejoignent
+la session. L’ancienne fenêtre LIVE réseau bénéficie de la même correction.
+
+Le bouton d’ouverture s’appelle désormais **Ouvrir un projet StageFlow…**.
+Les notions de projet local et de session LIVE restent distinctes dans le
+contexte du projet et l’aide.
+
+L’installateur demande d’enregistrer puis de fermer StageFlow avant de remplacer
+les fichiers. Il ne ferme pas automatiquement une application ouverte.
+Le format de projet, le réseau et les autorisations des télécommandes ne changent
+pas. Les paquets macOS v2027.0.1 sont inchangés.
+
 ## Ce qui change
 
 - La télécommande continue après 4 096 commandes, sans redémarrer StageFlow ni
@@ -49,6 +65,23 @@ sur téléphone, réseau de show, projecteur ou interface audio.
 # StageFlow v2027.0.2 - Windows
 
 StageFlow remains free, optional and fully standalone.
+
+## Stability fix — 6 September 2026
+
+This new build keeps version **2027.0.2**. It prevents StageFlow from closing
+while displaying or refreshing participants in **StageFlow connection**,
+including when StageMark and then StageMon join the session. The legacy network
+LIVE window receives the same fix.
+
+The opening button is now labelled **Open a StageFlow project…**. Local projects
+and LIVE sessions remain distinct in project context and Help.
+
+The installer asks you to save your work and close StageFlow before replacing
+files. It does not automatically close a running application. Project format,
+networking and remote-control permissions are unchanged. Existing macOS
+v2027.0.1 packages are unchanged.
+
+## Other improvements in 2027.0.2
 
 - Remote sessions continue beyond 4,096 commands without restarting the
   application or its QR gateway. Old requests are not automatically replayed.
