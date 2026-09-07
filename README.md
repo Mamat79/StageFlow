@@ -13,7 +13,7 @@
   <a href="https://github.com/Mamat79/StageFlow/releases/latest"><strong>⬇ Télécharger StageFlow</strong></a>
 </p>
 
-**[Windows v2027.0.4](https://github.com/Mamat79/StageFlow/releases/download/v2027.0.4/StageFlow-Setup.exe)** ·
+**[Windows v2027.0.5](https://github.com/Mamat79/StageFlow/releases/download/v2027.0.5/StageFlow-Setup.exe)** ·
 **[Mac Apple Silicon v2027.0.3](https://github.com/Mamat79/StageFlow/releases/download/v2027.0.3/StageFlow-2027.0.3-macos-arm64.dmg)** ·
 **[Mac Intel v2027.0.3](https://github.com/Mamat79/StageFlow/releases/download/v2027.0.3/StageFlow-2027.0.3-macos-x64.dmg)**
 
@@ -241,7 +241,7 @@ son ouverture : vérifiez la source officielle et suivez uniquement la procédur
 d'ouverture autorisée par macOS, sans désactiver ses protections globales.
 Le connecteur AutoCAD reste réservé à AutoCAD 2026 Windows. Vérifiez MIDI,
 Stream Deck, audio et projection sur votre propre matériel avant exploitation.
-La corrective Windows 2027.0.4 ne modifie pas ce paquet Mac.
+La corrective Windows 2027.0.5 ne modifie pas le paquet Mac 2027.0.4.
 
 ---
 
@@ -297,7 +297,7 @@ Stream Deck plugin. The same command set can change StageFlow groups, move
 through StageMark cues and operate the main StageMon listening controls while
 the applications share a LIVE project.
 
-On Windows 2027.0.4, **StageFlow connection** centralizes project/LIVE state,
+On Windows 2027.0.5, **StageFlow connection** centralizes project/LIVE state,
 workstations and QR access. **Guide** opens the StageFlow product manual;
 **Help → Suite guide** opens the shared guide and **Help** opens practical help.
 The header shows the current theme and language; alert
@@ -329,7 +329,7 @@ ID signed or Apple-notarized. macOS may block it: verify the official source
 and use only the opening procedure permitted by macOS, without disabling
 system-wide protection. The AutoCAD connector remains Windows-only. Check
 MIDI, Stream Deck, audio and projection on your own hardware before live use.
-The Windows 2027.0.4 corrective release does not change this Mac package.
+The Windows 2027.0.5 corrective release does not change the macOS 2027.0.4 package.
 
 ---
 

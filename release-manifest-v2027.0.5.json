@@ -1,0 +1,43 @@
+{
+  "application": "StageFlow",
+  "version": "2027.0.5",
+  "tag": "v2027.0.5",
+  "platform": "windows",
+  "releaseUrl": "https://github.com/Mamat79/StageFlow/releases/tag/v2027.0.5",
+  "productSourceCommit": "9105c81387f798e3160e9ef355cd1dd4483280d1",
+  "architecture": "x64",
+  "fileVersion": "2027.0.5.0",
+  "authenticode": "NotSigned",
+  "shortcut": "StageFlow v2027",
+  "guidesEdition": "2027.4",
+  "macos": {
+    "version": "2027.0.4",
+    "unchanged": true,
+    "releaseUrl": "https://github.com/Mamat79/StageFlow/releases/tag/v2027.0.4"
+  },
+  "assets": [
+    { "name": "Guide-Suite-SiLeMIO-FR.pdf", "bytes": 406117, "sha256": "D0397F4F36BECF3B1C37F6BD348A3179ED7D0A61C7156A8E10487FD4B6189634" },
+    { "name": "README.md", "bytes": 17786, "sha256": "9E22D7349E3E45F3C8012B6AABF4A8F21C47997A51FA9608291EB35253A00CE2" },
+    { "name": "RELEASE_NOTES_2027.0.5.md", "bytes": 2194, "sha256": "1446182F0C444C3BFAD8FBE4E96B8A46C1452E8B86B210DF8CCBD123AFE31427" },
+    { "name": "SiLeMIO-StageFlow.streamDeckPlugin", "bytes": 62785, "sha256": "277A85C59DFA742F5F17EB5EADED07ED4B1ADDA7ECB45106F07F3D0C0FB4BF8B" },
+    { "name": "SiLeMIO-Suite-Guide-EN.pdf", "bytes": 363744, "sha256": "15A391604CFBEE5FF06989F3462031742A9FB120934B34978FEDCBDFB491269F" },
+    { "name": "stageflow-logo.png", "bytes": 27680, "sha256": "19BDAC59E70066F8DA2C458CF4375B55DA8472E331CDFC564E4B88525AFFE9F2" },
+    { "name": "StageFlow-Notice-FR.pdf", "bytes": 228063, "sha256": "6378709C45BA53B0E8CB1767F0576A6B1E91E80F783357B2AFD694A7561718F7" },
+    { "name": "StageFlow-Setup.exe", "bytes": 60563827, "sha256": "F67A23B0C0966A89987051CC6ABD3F951E2CDCAB575988A4ED74D50C4E2A6104" },
+    { "name": "StageFlow-Setup.exe.sha256", "bytes": 86, "sha256": "1BB3597FCE9CA424E3C26DC5BCB881D8196705BDB7569A77753DBD63D39FB5E9" },
+    { "name": "StageFlow-User-Guide-EN.pdf", "bytes": 187994, "sha256": "F3870C8DFDA6C157220A6650843EC163C77893ED140E95EFDF072C99FE692AF9" },
+    { "name": "suite-guides-manifest.json", "bytes": 3567, "sha256": "0829390781FA577774F5548C299C0FE5AE509E15E3717B2D28EE8D8D1CD556E4" }
+  ],
+  "verification": {
+    "dotNetTests": 380,
+    "javaScriptTests": 30,
+    "autoCadNativeNarrowPaletteAccepted": true,
+    "autoCadPlacePromptAcceptedWithoutInsertion": true,
+    "headerRightAlignmentMeasured": true
+  },
+  "limitations": [
+    "This Windows release does not rebuild or change the macOS 2027.0.4 package.",
+    "Authenticode signing is not configured for this installer.",
+    "No physical audio, projection, MIDI or Stream Deck hardware acceptance is claimed."
+  ]
+}
