@@ -65,7 +65,7 @@ communes :
    chaque groupe quelles paires communes doivent apparaître ;
 4. utilisez le copier-coller ou tirez une sélection vers le bas pour prolonger
    une liste ;
-5. exportez un classeur Excel avec une feuille A4 par groupe ;
+5. exportez un classeur Excel avec une feuille par groupe et choisissez le papier et la pagination ;
 6. dessinez les premiers éléments du plan ou poursuivez le travail dans
    AutoCAD ;
 7. ouvrez le même projet dans les autres logiciels SiLeMIO si vous en avez
@@ -91,13 +91,21 @@ finissent par se contredire.
 ## Préparer des feuilles faciles à imprimer
 
 StageFlow génère un classeur Excel organisé par groupe. Chaque groupe possède
-sa propre feuille, prévue pour tenir sur une page A4 paysage lisible. Les
+sa propre feuille. Sous Windows, choisissez A4, A3 ou un format proposé par
+l'imprimante, puis une page par groupe ou plusieurs pages avec les titres répétés.
+Pour un grand patch, le mode multipage évite une réduction excessive ; vérifiez
+l'aperçu Excel avant d'imprimer ou d'exporter en PDF. Les
 paires communes masquées dans un groupe restent également absentes de sa page,
 tandis que les valeurs propres à ce groupe sont conservées.
 
 Le résultat peut être corrigé dans Excel, imprimé, envoyé ou réimporté dans
 StageFlow. Le libellé est **Balances** en français et **Sound check** en
-anglais.
+anglais. Modifiez les noms de groupes et les horaires directement dans l'onglet
+Commun : les pages imprimées les reprennent et StageFlow les conserve au réimport.
+
+La **[notice StageFlow](https://www.silemio.com/logiciels/stageflow#guides)**
+explique le logiciel pas à pas. Le bouton **Guide** l'ouvre dans votre langue ;
+**Aide → Guide de la suite** présente les échanges avec les autres applications.
 
 ## Dessiner un plan de scène
 
@@ -203,8 +211,9 @@ Le raccourci est **StageFlow v2027**. L'installateur ne ferme pas automatiquemen
 vos logiciels et préserve les projets et réglages utilisateur. Fermez StageFlow
 vous-même après avoir enregistré avant de remplacer une version ouverte.
 
-Le bouton **Guide** ouvre le guide illustré de toute la suite. **Aide** et la
-touche **F1** ouvrent l'aide propre à StageFlow. Le bandeau indique le thème
+Le bouton **Guide** ouvre la notice de StageFlow dans votre langue.
+**Aide → Guide de la suite** ouvre le guide commun ; **Aide** et la touche **F1**
+ouvrent l'aide pratique de StageFlow. Le bandeau indique le thème
 actuel, la langue, la connexion et les alertes ; les commandes se replient sur
 une seconde ligne lorsque nécessaire. Les mises à jour sont accessibles dans
 StageFlow.
@@ -254,7 +263,8 @@ each team and avoid entering the same data in several applications**.
 - Per-pair, per-group common-line visibility plus **Show all** and **Hide all**.
 - Spreadsheet-style editing, copy/paste and smart fill.
 - **Enter** moves down and **Tab** opens the next cell for immediate typing.
-- Excel export and refresh, with one landscape A4 page per group.
+- Excel export and refresh; on Windows, A4/A3 and other available paper sizes,
+  with one or multiple landscape pages per group and repeated headers.
 - Localized Excel labels: **Balances** in French and **Sound check** in English.
 - Built-in stage-plan editor and optional AutoCAD 2026 connector.
 - French and English interface with built-in help from **Help** or `F1`.
@@ -288,8 +298,9 @@ through StageMark cues and operate the main StageMon listening controls while
 the applications share a LIVE project.
 
 On Windows 2027.0.2, **StageFlow connection** centralizes project/LIVE state,
-workstations and QR access. **Guide** opens the suite guide and **Help** opens
-StageFlow's own help. The header shows the current theme and language; alert
+workstations and QR access. **Guide** opens the StageFlow product manual;
+**Help → Suite guide** opens the shared guide and **Help** opens practical help.
+The header shows the current theme and language; alert
 emission can be paused and resumed explicitly without replaying past changes.
 
 This public repository contains Windows and macOS downloads. The source code is

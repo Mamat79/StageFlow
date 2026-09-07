@@ -1,17 +1,19 @@
 {
   "application": "StageFlow",
   "version": "2027.0.2",
-  "buildIdentity": "2027.0.2+523844287cf096c229e104e71d2654d8de31d3fd",
-  "productSourceCommit": "523844287cf096c229e104e71d2654d8de31d3fd",
-  "buildPurpose": "Unified Windows connection centre and scoped native mobile handoffs; retains participant crash fix.",
-  "tag": "v2027.0.2",
+  "fileVersion": "2027.0.2.0",
   "platform": "windows",
   "architecture": "x64",
-  "fileVersion": "2027.0.2.0",
+  "buildIdentity": "2027.0.2+086ca0874713db2817666aae0194f040e5a59617",
+  "productSourceCommit": "086ca0874713db2817666aae0194f040e5a59617",
+  "documentationSourceCommit": "18c345104f2b057651e37737362267198c8062bb",
+  "buildPurpose": "Windows label alerts, suite project preservation, flexible Excel printing and right-aligned suite header",
   "releaseUrl": "https://github.com/Mamat79/StageFlow/releases/tag/v2027.0.2",
+  "tag": "v2027.0.2",
+  "tagPolicy": "Existing source and distribution tags retained unchanged; immutable product revision is recorded above",
   "authenticode": "NotSigned",
   "shortcut": "StageFlow v2027",
-  "guidesEdition": "2027.2",
+  "guidesEdition": "2027.3",
   "macos": {
     "unchanged": true,
     "releaseUrl": "https://github.com/Mamat79/StageFlow/releases/tag/v2027.0.1",
@@ -20,32 +22,32 @@
   "assets": [
     {
       "name": "Guide-Suite-SiLeMIO-FR.pdf",
-      "bytes": 406020,
-      "sha256": "31781CCE45374A8FABD0F1528CE819F38B6B5781BB8BDF197AA0F44B15F5CAFE",
+      "bytes": 406116,
+      "sha256": "236A751649392D2BCBFBB10B753015EA0AA4AA92A0D86F3E7FB8D8F75639D968",
       "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/Guide-Suite-SiLeMIO-FR.pdf"
     },
     {
       "name": "README.md",
-      "bytes": 16896,
-      "sha256": "D901878758735AF0ED345F1BB8E36678F3BB144DB105D57633B8B262441094A8",
+      "bytes": 17777,
+      "sha256": "412A0E62762F215D36750E8B1FAD62EF97AE25AB5E5A94553680D70683797FDF",
       "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/README.md"
     },
     {
       "name": "RELEASE_NOTES_2027.0.2.md",
-      "bytes": 8771,
-      "sha256": "6ED599EA6378212F15A1B72B95B32D29103F1E658756020D574229DB974C087F",
+      "bytes": 10154,
+      "sha256": "6557249A9D36005A5DF8AB587EBC17D827D159219C745E49E41A1002A947046B",
       "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/RELEASE_NOTES_2027.0.2.md"
     },
     {
       "name": "SiLeMIO-StageFlow.streamDeckPlugin",
       "bytes": 62785,
-      "sha256": "8BE13BE4D9E101D54EC59145C5E6661F3752C24900A410BD92DAD356441FFEE3",
+      "sha256": "9DEB61D41E3A0346F81AB82FB91F209D94AC6E6F2DB88AD4271246665EA7E76E",
       "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/SiLeMIO-StageFlow.streamDeckPlugin"
     },
     {
       "name": "SiLeMIO-Suite-Guide-EN.pdf",
-      "bytes": 363562,
-      "sha256": "33DFF9A840FDDDEC8BA0575B904B050014B0960ECA170D4C0316CD1B63475BA9",
+      "bytes": 363744,
+      "sha256": "63B52A0CE2C8D03DC6E8A0333D06A5A91EEE534A4FEB0DBA6E8EAD1F19724B93",
       "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/SiLeMIO-Suite-Guide-EN.pdf"
     },
     {
@@ -55,37 +57,51 @@
       "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/stageflow-logo.png"
     },
     {
+      "name": "StageFlow-Notice-FR.pdf",
+      "bytes": 228061,
+      "sha256": "2812126E9DA3AE87EBB546AF18C03339E3D78C19DA281EC7810C60AB1B815FE4",
+      "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/StageFlow-Notice-FR.pdf"
+    },
+    {
       "name": "StageFlow-Setup.exe",
-      "bytes": 60449811,
-      "sha256": "7B3A3C40894563515A24AFE1FEDBBFBC92484798D948E2EB921F6EC6D8FA23B3",
+      "bytes": 60570030,
+      "sha256": "DC3843E2A80BF3BF861DE521A11D143A0A715767DBE664471FB27EDB301EFFE0",
       "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/StageFlow-Setup.exe"
     },
     {
       "name": "StageFlow-Setup.exe.sha256",
       "bytes": 86,
-      "sha256": "3BD38A6E98D41D44B2F824FCF28BD8DE33F954D0891D73FA8F71090ECFEC8EF5",
+      "sha256": "BF85520C622611F29B223D88132F26BBD4063346EFEF5FAE10798EB9DC4D04F4",
       "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/StageFlow-Setup.exe.sha256"
     },
     {
+      "name": "StageFlow-User-Guide-EN.pdf",
+      "bytes": 187994,
+      "sha256": "2A6F1FEC56CBE917EB2F5CE69B37DAEBD4468A457D88AC9B5F54B911C1D26732",
+      "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/StageFlow-User-Guide-EN.pdf"
+    },
+    {
       "name": "suite-guides-manifest.json",
-      "bytes": 3032,
-      "sha256": "0D874737844A547F7A069AA106D3B342BA4BBB60B8FEE02EBE57C19AB4A2582D",
+      "bytes": 3567,
+      "sha256": "941D7E0511A3AFA0CAA97168BD8F9D63D57A67600407F88B9A2C7ADC89C2DD60",
       "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0.2/suite-guides-manifest.json"
     }
   ],
   "verification": {
-    "stageMonInteropAssertionsPassed": 40,
-    "installerCloseGuardCompiled": true,
-    "dotnetTestsPassed": 335,
-    "guidePagesVisuallyReviewed": 28,
-    "stageMarkInteropScenariosPassed": 3,
+    "windowsPayloadFiles": 618,
     "mobileJavascriptTestsPassed": 30,
-    "physicalAcceptanceClaimed": false
+    "baseDotnetTestsPassed": 365,
+    "headerTargetedTestsPassed": 13,
+    "physicalAcceptanceClaimed": false,
+    "nativeHeaderEvidence": "User-provided Windows screenshot and confirmation",
+    "persistentPreferenceFilesUnchanged": 3,
+    "autoCadBundleFiles": 5
   },
   "limitations": [
-    "Existing installations with the same version require explicit redownload and reinstall.",
-    "Local fixture interoperability is not physical phone, two-PC LAN, audio or projection acceptance.",
-    "WPF content tests create no native window; no native DPI or graphics-driver fix is claimed.",
-    "Existing macOS packages remain unchanged; a Mac source compilation is not a new Mac package."
+    "Same-version replacement requires downloading and reinstalling this installer.",
+    "Existing release tags are preserved; use productSourceCommit to identify the exact binary source.",
+    "Software fixture tests and the user screenshot are not physical phone, multi-PC LAN, audio, projection, MIDI or Stream Deck acceptance.",
+    "Windows automatic capture produced white frames; no general graphics-driver repair is claimed.",
+    "macOS assets and workflows are unchanged."
   ]
 }

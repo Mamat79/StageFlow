@@ -3,6 +3,26 @@
 StageFlow reste gratuit, facultatif et utilisable seul. Cette corrective Windows
 améliore les longues sessions de télécommande et la lisibilité de la suite.
 
+## Alertes, projets et impression - fabrication du 7 septembre 2026
+
+- Les commandes Connexion, alertes, thème, langue, Guide et Aide sont alignées
+  à droite du bandeau ; l'identité StageFlow reste à gauche.
+- Chaque nouveau LIVE active les alertes de labels. La pause volontaire et
+  les acquittements restent indépendants de la synchronisation du patch.
+- Le LIVE local dispose aussi d'un canal d'alertes pour les autres logiciels.
+  Les commandes ciblées contrôlent la session et la disponibilité avant et
+  après l'envoi ; une ancienne commande n'est pas rejouée à la reconnexion.
+- Les projets commencés dans StageDesk ou StageMon conservent leurs labels,
+  entrées physiques, identifiants, groupes indépendants et domaines propres.
+  Enregistrer sous copie les données persistantes et refuse les conflits.
+- Impression propose A4, A3 et les autres formats disponibles, sur une ou
+  plusieurs pages. Les titres sont répétés ; un patch dense reste plus lisible
+  en multipage. L'aperçu et l'export PDF se font dans Excel.
+- Les noms et horaires saisis dans Commun se retrouvent dans les pages
+  imprimées et au réimport, sans modifier la feuille technique cachée.
+- Guide ouvre la nouvelle notice StageFlow FR/EN ; le guide commun 2027.3
+  reste accessible dans Aide. Les paquets Mac existants ne changent pas.
+
 ## Centre de connexion et télécommandes
 
 - **Connexion StageFlow** garde son nom dans le bandeau, avec l’état et les
@@ -47,7 +67,7 @@ pas. Les paquets macOS v2027.0.1 sont inchangés.
 - La télécommande continue après 4 096 commandes, sans redémarrer StageFlow ni
   recréer le QR. Les anciennes requêtes ne sont jamais rejouées automatiquement.
 - Le bandeau s’adapte à la largeur de la fenêtre. Il affiche l’état de connexion,
-  les alertes, le thème courant Clair/Sombre, FR/EN, le Guide de la suite et
+  les alertes, le thème courant Clair/Sombre, FR/EN, la notice StageFlow et
   l’Aide propre à StageFlow. Les commandes communes suivent les repères de la suite.
 - Connexion StageFlow regroupe le nom complet du projet, le fonctionnement local,
   l’hôte, les postes connectés, leurs commandes annoncées et l’accès QR. Les
@@ -132,7 +152,8 @@ v2027.0.1 packages are unchanged.
 - Remote sessions continue beyond 4,096 commands without restarting the
   application or its QR gateway. Old requests are not automatically replayed.
 - The responsive suite header provides connection state, alerts, the current
-  Light/Dark theme, FR/EN, the shared Guide and StageFlow-specific Help.
+  Light/Dark theme, FR/EN, the StageFlow user guide and StageFlow-specific Help.
+  Header controls are right-aligned while the StageFlow identity remains on the left.
 - StageFlow connection separates the local project, network host and connected
   applications from mobile QR control, with advertised controls and expandable
   technical details.

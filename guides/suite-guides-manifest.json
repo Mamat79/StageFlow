@@ -1,23 +1,28 @@
 {
   "edition": "v2027",
-  "bundleVersion": "2027.2",
+  "bundleVersion": "2027.3",
   "status": "publication-approved",
   "publicationAllowed": true,
   "files": [
     {
       "path": "scripts/generate-suite-guides.py",
-      "bytes": 81576,
-      "sha256": "a04ec0f6affbd5cc44295008c6cd08e06711f1b26991ed05d4f338b7a29a8f41"
+      "bytes": 82654,
+      "sha256": "b4c25881151ca320e0553d36c3ce4d32b4c5d5ff2b3a6284af2f3a0dc59d8804"
+    },
+    {
+      "path": "scripts/stageflow_manual_content.py",
+      "bytes": 24038,
+      "sha256": "4486d8c54ed14eeffbb946290aa81a56e7e39c18e4c8ff3a32d244cd8b6b365d"
     },
     {
       "path": "docs/guides/GUIDE-SUITE-FR.md",
-      "bytes": 22012,
-      "sha256": "6464246e14ed3b609b0941a2dd3850524284c7cd7afecfcb219f34c688f336b6"
+      "bytes": 22543,
+      "sha256": "5e4e467fb85006e4192862f7def3a9562c6d73b870990d4b5f164249c47d5fb9"
     },
     {
       "path": "docs/guides/SUITE-GUIDE-EN.md",
-      "bytes": 19280,
-      "sha256": "20d9bacda01829dbbe638fa09910b7a73bb20b388a9b61cb086a08695dfc4224"
+      "bytes": 19735,
+      "sha256": "4055570078608cd7939096bd09c982e40d6d2093d79d20a870a308e4add8d6ca"
     },
     {
       "path": "integrations/streamdeck/com.silemio.stageflow.sdPlugin/commands.json",
@@ -76,13 +81,23 @@
     },
     {
       "path": "distribution/guides/Guide-Suite-SiLeMIO-FR.pdf",
-      "bytes": 406020,
-      "sha256": "31781cce45374a8fabd0f1528ce819f38b6b5781bb8bdf197aa0f44b15f5cafe"
+      "bytes": 406116,
+      "sha256": "236a751649392d2bcbfbb10b753015ea0aa4aa92a0d86f3e7fb8d8f75639d968"
     },
     {
       "path": "distribution/guides/SiLeMIO-Suite-Guide-EN.pdf",
-      "bytes": 363562,
-      "sha256": "33dff9a840fdddec8ba0575b904b050014b0960eca170d4c0316cd1b63475ba9"
+      "bytes": 363744,
+      "sha256": "63b52a0ce2c8d03dc6e8a0333d06a5a91eee534a4feb0dba6e8ead1f19724b93"
+    },
+    {
+      "path": "distribution/guides/StageFlow-Notice-FR.pdf",
+      "bytes": 228061,
+      "sha256": "2812126e9da3ae87ebb546af18c03339e3d78c19da281ec7810c60ab1b815fe4"
+    },
+    {
+      "path": "distribution/guides/StageFlow-User-Guide-EN.pdf",
+      "bytes": 187994,
+      "sha256": "2a6f1fec56cbe917eb2f5ce69b37daebd4468a457d88ac9b5f54b911c1d26732"
     }
   ]
 }
