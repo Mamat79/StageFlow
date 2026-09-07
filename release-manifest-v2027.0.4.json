@@ -1,0 +1,87 @@
+{
+  "application": "StageFlow",
+  "version": "2027.0.4",
+  "tag": "v2027.0.4",
+  "platform": "windows",
+  "releaseUrl": "https://github.com/Mamat79/StageFlow/releases/tag/v2027.0.4",
+  "productSourceCommit": "01df36ff3ecade1084af296916d31955de4dcc60",
+  "architecture": "x64",
+  "fileVersion": "2027.0.4.0",
+  "authenticode": "NotSigned",
+  "shortcut": "StageFlow v2027",
+  "guidesEdition": "2027.4",
+  "macos": {
+    "version": "2027.0.3",
+    "unchanged": true,
+    "releaseUrl": "https://github.com/Mamat79/StageFlow/releases/tag/v2027.0.3"
+  },
+  "assets": [
+    {
+      "name": "Guide-Suite-SiLeMIO-FR.pdf",
+      "bytes": 406117,
+      "sha256": "D0397F4F36BECF3B1C37F6BD348A3179ED7D0A61C7156A8E10487FD4B6189634"
+    },
+    {
+      "name": "README.md",
+      "bytes": 17767,
+      "sha256": "5B0A30F87C6A96818A2E5DA28DF4A4D5ECC19624EF325E2853D6A593AFD2DEE0"
+    },
+    {
+      "name": "RELEASE_NOTES_2027.0.4.md",
+      "bytes": 2991,
+      "sha256": "787F43657BB9294809877507D35D63CC738B112D6DC8D9AFF7979FB8488568CC"
+    },
+    {
+      "name": "SiLeMIO-StageFlow.streamDeckPlugin",
+      "bytes": 62785,
+      "sha256": "D145D5CCF49E7DEA974CF6F52FBBEBD30069F003C2EEFB2105C1AE63346BED99"
+    },
+    {
+      "name": "SiLeMIO-Suite-Guide-EN.pdf",
+      "bytes": 363744,
+      "sha256": "15A391604CFBEE5FF06989F3462031742A9FB120934B34978FEDCBDFB491269F"
+    },
+    {
+      "name": "stageflow-logo.png",
+      "bytes": 27680,
+      "sha256": "19BDAC59E70066F8DA2C458CF4375B55DA8472E331CDFC564E4B88525AFFE9F2"
+    },
+    {
+      "name": "StageFlow-Notice-FR.pdf",
+      "bytes": 228063,
+      "sha256": "6378709C45BA53B0E8CB1767F0576A6B1E91E80F783357B2AFD694A7561718F7"
+    },
+    {
+      "name": "StageFlow-Setup.exe",
+      "bytes": 60563950,
+      "sha256": "BF3138C409E40B0566E292CFAE0616C998E61092251C2885D30C9596AD47176E"
+    },
+    {
+      "name": "StageFlow-Setup.exe.sha256",
+      "bytes": 86,
+      "sha256": "E51EBB47D7082D1991CB18C19D63680FCBE002791359AE099AAD512F1404F14D"
+    },
+    {
+      "name": "StageFlow-User-Guide-EN.pdf",
+      "bytes": 187994,
+      "sha256": "F3870C8DFDA6C157220A6650843EC163C77893ED140E95EFDF072C99FE692AF9"
+    },
+    {
+      "name": "suite-guides-manifest.json",
+      "bytes": 3567,
+      "sha256": "0829390781FA577774F5548C299C0FE5AE509E15E3717B2D28EE8D8D1CD556E4"
+    }
+  ],
+  "verification": {
+    "dotNetTests": 377,
+    "javaScriptTests": 30,
+    "guidePagesReviewed": 44,
+    "autoCadLiveGuiAccepted": true,
+    "headerRightAlignmentAccepted": true
+  },
+  "limitations": [
+    "This Windows release does not rebuild or change the macOS 2027.0.3 packages.",
+    "Authenticode signing is not configured for this installer.",
+    "No physical audio, projection, MIDI or Stream Deck hardware acceptance is claimed."
+  ]
+}

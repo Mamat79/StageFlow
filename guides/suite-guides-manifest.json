@@ -1,18 +1,18 @@
 {
   "edition": "v2027",
-  "bundleVersion": "2027.3",
+  "bundleVersion": "2027.4",
   "status": "publication-approved",
   "publicationAllowed": true,
   "files": [
     {
       "path": "scripts/generate-suite-guides.py",
       "bytes": 82654,
-      "sha256": "b4c25881151ca320e0553d36c3ce4d32b4c5d5ff2b3a6284af2f3a0dc59d8804"
+      "sha256": "9f35d195734c635b1b5a68e6d021ca484e72c4036fdbbcaed2c631d0ce4dc1c0"
     },
     {
       "path": "scripts/stageflow_manual_content.py",
       "bytes": 24038,
-      "sha256": "4486d8c54ed14eeffbb946290aa81a56e7e39c18e4c8ff3a32d244cd8b6b365d"
+      "sha256": "03041cb0ac54c79c33a1651efa4b44b2a8aa907436488eda00ccbab02ab112a9"
     },
     {
       "path": "docs/guides/GUIDE-SUITE-FR.md",
@@ -81,23 +81,23 @@
     },
     {
       "path": "distribution/guides/Guide-Suite-SiLeMIO-FR.pdf",
-      "bytes": 406116,
-      "sha256": "236a751649392d2bcbfbb10b753015ea0aa4aa92a0d86f3e7fb8d8f75639d968"
+      "bytes": 406117,
+      "sha256": "d0397f4f36becf3b1c37f6bd348a3179ed7d0a61c7156a8e10487fd4b6189634"
     },
     {
       "path": "distribution/guides/SiLeMIO-Suite-Guide-EN.pdf",
       "bytes": 363744,
-      "sha256": "63b52a0ce2c8d03dc6e8a0333d06a5a91eee534a4feb0dba6e8ead1f19724b93"
+      "sha256": "15a391604cfbee5ff06989f3462031742a9fb120934b34978fedcbdfb491269f"
     },
     {
       "path": "distribution/guides/StageFlow-Notice-FR.pdf",
-      "bytes": 228061,
-      "sha256": "2812126e9da3ae87ebb546af18c03339e3d78c19da281ec7810c60ab1b815fe4"
+      "bytes": 228063,
+      "sha256": "6378709c45ba53b0e8cb1767f0576a6b1e91e80f783357b2afd694a7561718f7"
     },
     {
       "path": "distribution/guides/StageFlow-User-Guide-EN.pdf",
       "bytes": 187994,
-      "sha256": "2a6f1fec56cbe917eb2f5ce69b37daebd4468a457d88ac9b5f54b911c1d26732"
+      "sha256": "f3870c8dfda6c157220a6650843ec163c77893ed140e95efdf072c99fe692af9"
     }
   ]
 }
