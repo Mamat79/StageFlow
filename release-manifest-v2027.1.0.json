@@ -1,0 +1,58 @@
+{
+  "application": "StageFlow",
+  "version": "2027.1.0",
+  "tag": "v2027.1.0",
+  "releaseUrl": "https://github.com/Mamat79/StageFlow/releases/tag/v2027.1.0",
+  "productSourceCommit": "e7d3089c042f2e462ebe7f53ab2075e2d53a54e5",
+  "platforms": ["windows-x64", "macos-arm64", "macos-x64"],
+  "windows": {
+    "fileVersion": "2027.1.0.0",
+    "authenticode": "NotSigned",
+    "shortcut": "StageFlow v2027"
+  },
+  "macos": {
+    "minimumVersion": "14.0",
+    "appleSiliconNativeLaunch": true,
+    "intelArchitectureVerified": true,
+    "intelNativeAcceptance": false,
+    "developerIdSigned": false,
+    "notarized": false
+  },
+  "guidesEdition": "2027.4",
+  "assets": [
+    { "name": "Guide-Suite-SiLeMIO-FR.pdf", "bytes": 406117, "sha256": "D0397F4F36BECF3B1C37F6BD348A3179ED7D0A61C7156A8E10487FD4B6189634" },
+    { "name": "README.md", "bytes": 17915, "sha256": "F1274631CB1B31E460BCF0F5236B49124BE4681F7378B7F03C197A8BD0860351" },
+    { "name": "RELEASE_NOTES_2027.1.0.md", "bytes": 3993, "sha256": "27B7E3AD8A9A06BBCC82FE2EEEB29E1FBB54E5A448D677976345441DCF9F3AD5" },
+    { "name": "SiLeMIO-StageFlow.streamDeckPlugin", "bytes": 62785, "sha256": "ACD9CF84B964C096684914C08880DAF31F9F54BE4CD422AB12D01CFBE7718CC3" },
+    { "name": "SiLeMIO-Suite-Guide-EN.pdf", "bytes": 363744, "sha256": "15A391604CFBEE5FF06989F3462031742A9FB120934B34978FEDCBDFB491269F" },
+    { "name": "StageFlow-2027.1.0-macos-arm64.dmg", "bytes": 67259902, "sha256": "08CCDA05943457008FFDCD3B5418B36D2623670B9374117DF798406990CE42B9" },
+    { "name": "StageFlow-2027.1.0-macos-arm64.dmg.sha256", "bytes": 149, "sha256": "CC30F8BCD62EBC34FDF641C80E30E50DE1A3A73A0B2F8E593F9F6EB802DC053F" },
+    { "name": "StageFlow-2027.1.0-macos-x64.dmg", "bytes": 68544101, "sha256": "E99FEF4360C40890609AD6BC5E3058CA7063838198781954385F344C0694EF44" },
+    { "name": "StageFlow-2027.1.0-macos-x64.dmg.sha256", "bytes": 145, "sha256": "75F57F161B189B68C59290749F9B0BA69F7114AAC4992B92EE2CAD7DE68FAEF9" },
+    { "name": "stageflow-logo.png", "bytes": 27680, "sha256": "19BDAC59E70066F8DA2C458CF4375B55DA8472E331CDFC564E4B88525AFFE9F2" },
+    { "name": "StageFlow-Notice-FR.pdf", "bytes": 228063, "sha256": "6378709C45BA53B0E8CB1767F0576A6B1E91E80F783357B2AFD694A7561718F7" },
+    { "name": "StageFlow-Setup.exe", "bytes": 60609714, "sha256": "0ADF269D08DEAC90FC689C28C6CD354819D23D9328FA58360336E380265C0942" },
+    { "name": "StageFlow-Setup.exe.sha256", "bytes": 86, "sha256": "1716DAC937E823F1C401EFED73701EBD7524F6C22826CAF7BAC9AE1EAABA69E3" },
+    { "name": "StageFlow-User-Guide-EN.pdf", "bytes": 187994, "sha256": "F3870C8DFDA6C157220A6650843EC163C77893ED140E95EFDF072C99FE692AF9" },
+    { "name": "suite-guides-manifest.json", "bytes": 3567, "sha256": "0829390781FA577774F5548C299C0FE5AE509E15E3717B2D28EE8D8D1CD556E4" }
+  ],
+  "verification": {
+    "dotNetWindowsTests": 398,
+    "dotNetMacTestsPassed": 34,
+    "dotNetMacTestsSkippedHardware": 1,
+    "typeScriptTests": 21,
+    "remoteMobileTests": 30,
+    "autoCad2026CoreConsoleAccepted": true,
+    "streamDeckValidation": true,
+    "macosArm64DmgMountedAndLaunchedByCodemagic": true,
+    "downloadedReleaseAssetsRehashed": true,
+    "macosBundleVersionsInspected": true,
+    "macosMachOArchitecturesInspected": true
+  },
+  "limitations": [
+    "The Intel package is cross-compiled and architecture-checked on Apple Silicon; no native Intel-Mac acceptance is claimed.",
+    "The macOS packages are not Developer ID signed or notarized.",
+    "Authenticode signing is not configured for the Windows installer.",
+    "No physical audio, projection, MIDI or Stream Deck hardware acceptance is claimed."
+  ]
+}
