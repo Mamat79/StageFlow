@@ -14,13 +14,13 @@
 </p>
 
 **[Windows v2027.1.5](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.5/StageFlow-Setup.exe)** ·
-**[Mac Apple Silicon v2027.1.3](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.3/StageFlow-2027.1.3-macos-arm64.dmg)** ·
-**[Mac Intel v2027.1.3](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.3/StageFlow-2027.1.3-macos-x64.dmg)**
+**[Mac Apple Silicon v2027.1.5](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.5/StageFlow-2027.1.5-macos-arm64.dmg)** ·
+**[Mac Intel v2027.1.5](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.5/StageFlow-2027.1.5-macos-x64.dmg)**
 
 Les versions Windows et Mac sont livrées séparément. Le nom affiché reste
 **StageFlow v2027** ; les numéros exacts ci-dessus identifient chaque paquet.
 
-**Windows 2027.1.5** ajoute les onglets Monitoring et Notes par groupe, les circuits wedges/IEM et la liaison volontaire Excel ↔ StageFlow. [Mode d’emploi](Monitoring-Notes-Excel.md) · [Notes de version](RELEASE_NOTES_2027.1.5.md) · [Contrôles et limites](QUALIFICATION-WINDOWS-2027.1.5.md). Les liens Mac ci-dessus restent explicitement en **2027.1.3** tant que les paquets Mac 2027.1.5 ne sont pas publiés. La liaison native Excel de cette version concerne Windows avec Excel de bureau installé.
+**Windows 2027.1.5** ajoute les onglets Monitoring et Notes par groupe, les circuits wedges/IEM et la liaison volontaire Excel ↔ StageFlow. [Mode d’emploi](Monitoring-Notes-Excel.md) · [Notes de version](RELEASE_NOTES_2027.1.5.md) · [Contrôles et limites](QUALIFICATION-WINDOWS-2027.1.5.md). Les paquets Mac sont aussi en **2027.1.5**, pour macOS 14 ou ultérieur ; lire leurs [contrôles et limites](QUALIFICATION-MACOS-2027.1.5.md). La liaison native Excel de cette version concerne Windows avec Excel de bureau installé.
 
 ---
 
@@ -222,7 +222,7 @@ StageFlow.
 
 ## Installation macOS
 
-StageFlow v2027.1.3 est disponible pour **macOS 14 ou ultérieur**, en deux éditions
+StageFlow v2027.1.5 est disponible pour **macOS 14 ou ultérieur**, en deux éditions
 autonomes : **Apple Silicon** (puces M) et **Intel**. Choisissez le téléchargement
 adapté en haut de cette page, ouvrez le DMG et glissez **StageFlow.app** dans
 Applications. Enregistrez et quittez une version déjà ouverte avant de la remplacer.
@@ -311,9 +311,9 @@ maintained separately.
 
 ### Install on Mac
 
-**macOS 14 or later** is supported by StageFlow v2027.1.3, with separate
-[Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.3/StageFlow-2027.1.3-macos-arm64.dmg)
-and [Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.3/StageFlow-2027.1.3-macos-x64.dmg)
+**macOS 14 or later** is supported by StageFlow v2027.1.5, with separate
+[Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.5/StageFlow-2027.1.5-macos-arm64.dmg)
+and [Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.5/StageFlow-2027.1.5-macos-x64.dmg)
 downloads. Open the matching DMG and drag **StageFlow.app** into Applications.
 Save and quit any previous version before replacing it.
 The first window may take about ten seconds to appear on some Intel Macs.

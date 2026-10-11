@@ -1,0 +1,36 @@
+{
+  "product": "StageFlow",
+  "version": "2027.1.5",
+  "sourceSHA": "96b1f8e2eaa8b5876d25218410ca84769ee14491",
+  "codemagicJobId": "6aca8c40a33e1dbfb50ac21d",
+  "minimumMacOS": "14.0",
+  "testCounts": {
+    "passed": 413,
+    "failed": 0,
+    "skipped": 0
+  },
+  "qualification": "TECHNICAL_CHECKS_PASS_WITH_ACCEPTANCE_LIMITS",
+  "nativeARM64": "nonvisual native launch from mounted DMG",
+  "intel": "cross-compiled and structurally checked; not executed",
+  "signature": "ad-hoc only; no Apple Developer ID or notarization",
+  "assets": [
+    {
+      "name": "StageFlow-2027.1.5-macos-arm64.dmg",
+      "bytes": 70584281,
+      "sha256": "89bda5ca174d0820511bc5a82c55e63e15b23b7772ead90bf94d512e6436c6eb",
+      "checksumSHA256": "3f64fd9c13e14ae52433844bcfe30e1e80f2c1a200e6fc2dbbf6f37cfa91f417"
+    },
+    {
+      "name": "StageFlow-2027.1.5-macos-x64.dmg",
+      "bytes": 72452849,
+      "sha256": "e32b304b5b32a4ba8c2add559c021223ddb03d70430052a98dbe79562d25565c",
+      "checksumSHA256": "7d676a82fe5759075947405e8a7442b92bb0875fec7aa9d2bf0a0fe16458f9ad"
+    }
+  ],
+  "limits": [
+    "No interactive macOS desktop/keyboard acceptance",
+    "ARM64 nonvisual native launch only; Intel cross-built and structurally inspected, not executed",
+    "Ad-hoc signature only; no Apple Developer ID or notarization",
+    "No GitHub upload or site update performed by this workshop"
+  ]
+}

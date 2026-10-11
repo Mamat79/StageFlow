@@ -1,4 +1,4 @@
-# StageFlow 2027.1.5 — Windows
+# StageFlow 2027.1.5 — Windows / macOS
 
 ## Français
 
@@ -10,7 +10,7 @@
 - La liaison native Office est propre à Windows ; sur macOS, les onglets, la persistance et les exports XLSX sont disponibles. Aucune liaison Office Mac n'est annoncée.
 - Aucun changement des autres logiciels de la suite, des guides approuvés ou de la cible .NET 8 du connecteur AutoCAD.
 
-Le paquet Windows est construit et vérifié ; l’installeur standard et le remplacement de 2027.1.3 ont été contrôlés. Les tests métier, Excel 365 et PDF passent. La capture native de la fenêtre et le clavier restent non qualifiés ; les captures blanches/noires ne permettent pas d’en établir la cause. Le connecteur est vérifié par ses fichiers, sans recette réelle dans AutoCAD. Voir QUALIFICATION-WINDOWS-2027.1.5.md. Les paquets Mac 2027.1.5 ne sont pas inclus dans ce lot Windows ; leurs fonctions restent soumises à leur publication et qualification séparées.
+Le paquet Windows est construit et vérifié ; l’installeur standard et le remplacement de 2027.1.3 ont été contrôlés. Les tests métier, Excel 365 et PDF passent. La capture native de la fenêtre et le clavier restent non qualifiés ; les captures blanches/noires ne permettent pas d’en établir la cause. Le connecteur est vérifié par ses fichiers, sans recette réelle dans AutoCAD. Voir QUALIFICATION-WINDOWS-2027.1.5.md. Les paquets Mac 2027.1.5 Apple Silicon et Intel sont joints, pour macOS 14 ou ultérieur, avec leurs contrôles et limites distincts dans QUALIFICATION-MACOS-2027.1.5.md.
 
 ## English
 
@@ -22,4 +22,4 @@ Le paquet Windows est construit et vérifié ; l’installeur standard et le rem
 - Native Office linking is Windows only; macOS supports the tabs, persistence and XLSX exports. No Office Mac link is claimed.
 - No changes to other suite products, approved guides or the AutoCAD connector's .NET 8 target.
 
-The Windows package, standard installer and upgrade from 2027.1.3 were verified. Business, Microsoft 365 and PDF checks passed. Native window capture and keyboard behavior remain unqualified; white/black captures do not establish a cause. AutoCAD package files were verified without testing inside AutoCAD. See QUALIFICATION-WINDOWS-2027.1.5.md. macOS 2027.1.5 packages are not included in this Windows delivery and remain subject to separate release and qualification.
+The Windows package, standard installer and upgrade from 2027.1.3 were verified. Business, Microsoft 365 and PDF checks passed. Native window capture and keyboard behavior remain unqualified; white/black captures do not establish a cause. AutoCAD package files were verified without testing inside AutoCAD. See QUALIFICATION-WINDOWS-2027.1.5.md. macOS 2027.1.5 Apple Silicon and Intel packages are attached for macOS 14 or later, with separate checks and limits in QUALIFICATION-MACOS-2027.1.5.md.

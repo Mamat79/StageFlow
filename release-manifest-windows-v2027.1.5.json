@@ -16,8 +16,8 @@
     },
     {
       "path": "Monitoring-Notes-Excel.md",
-      "bytes": 10516,
-      "sha256": "7d20e126ecd56ea4611ec280e604864a06c9f98427f9dcba6a864e04a2d4a265"
+      "bytes": 10585,
+      "sha256": "b7af5fc4143e7ce2e1a176a23e430d2f001c2b5b29c2415cc41faa42477f5378"
     },
     {
       "path": "QUALIFICATION-WINDOWS-2027.1.5.md",
@@ -26,13 +26,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 18437,
-      "sha256": "cfbd5832adacdf79538cffbe62596847645060eb46fc35d939bef8071e4abe4a"
+      "bytes": 18462,
+      "sha256": "508cffb0ae2603a47fd4829667538f96f27fc20dd583baa58e97184543f2a17f"
     },
     {
       "path": "RELEASE_NOTES_2027.1.5.md",
-      "bytes": 3316,
-      "sha256": "c7082295554863e0447e83728d26567dd1b45774495ebef78942e6994dac59f6"
+      "bytes": 3375,
+      "sha256": "132abef80efa78149907309bfdb2261813d13c0e51c0a92376ddc9e210aa74d1"
     },
     {
       "path": "SiLeMIO-StageFlow.streamDeckPlugin",
