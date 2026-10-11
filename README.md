@@ -13,14 +13,20 @@
   <a href="https://github.com/Mamat79/StageFlow/releases/latest"><strong>⬇ Télécharger StageFlow</strong></a>
 </p>
 
-**[Windows v2027.1.5](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.5/StageFlow-Setup.exe)** ·
+**[Windows v2027.1.6](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.6/StageFlow-Setup.exe)** ·
 **[Mac Apple Silicon v2027.1.5](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.5/StageFlow-2027.1.5-macos-arm64.dmg)** ·
 **[Mac Intel v2027.1.5](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.5/StageFlow-2027.1.5-macos-x64.dmg)**
 
 Les versions Windows et Mac sont livrées séparément. Le nom affiché reste
 **StageFlow v2027** ; les numéros exacts ci-dessus identifient chaque paquet.
 
-**Windows 2027.1.5** ajoute les onglets Monitoring et Notes par groupe, les circuits wedges/IEM et la liaison volontaire Excel ↔ StageFlow. [Mode d’emploi](Monitoring-Notes-Excel.md) · [Notes de version](RELEASE_NOTES_2027.1.5.md) · [Contrôles et limites](QUALIFICATION-WINDOWS-2027.1.5.md). Les paquets Mac sont aussi en **2027.1.5**, pour macOS 14 ou ultérieur ; lire leurs [contrôles et limites](QUALIFICATION-MACOS-2027.1.5.md). La liaison native Excel de cette version concerne Windows avec Excel de bureau installé.
+**Windows 2027.1.6** corrige la suspension de la liaison Excel après modification du patch et restaure contenu/protection après une erreur de rafraîchissement. Les fonctions Monitoring, Notes et Excel de 1.5 sont conservées. [Mode d’emploi](Monitoring-Notes-Excel.md) · [Notes de version](RELEASE_NOTES_2027.1.6.md) · [Contrôles et limites](QUALIFICATION-WINDOWS-2027.1.6.md). Les paquets Mac restent en **2027.1.5**, pour macOS 14 ou ultérieur ; lire leurs [contrôles et limites](QUALIFICATION-MACOS-2027.1.5.md). La liaison native Excel de cette version concerne Windows avec Excel de bureau installé.
+
+**Vérification 1.6 :** le vrai Setup a été extrait et ses fichiers contrôlés ; 21 essais Office ont réussi sur les DLL livrées. Installation réelle, mise à niveau, raccourcis, retour arrière et recette native StageFlow/clavier/DPI non exercés pour cette livraison. La liaison peut prendre plusieurs secondes ou dizaines de secondes. Aucun remplacement personnel effectué par cette publication.
+
+**Windows 2027.1.6** fixes desktop Excel synchronization after patch edits by excluding the Commun overview from duplex pagination. An interrupted refresh restores its previous content and protection.
+
+**1.6 verification:** actual Setup contents verified; 21 real Office checks passed on delivered DLLs. Installer execution, upgrade, shortcuts, rollback and native StageFlow UI/keyboard/DPI checks were not exercised. Refresh can take seconds or tens of seconds. This publication performs no personal installation replacement.
 
 ---
 
