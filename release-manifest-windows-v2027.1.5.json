@@ -1,0 +1,93 @@
+{
+  "product": "StageFlow",
+  "version": "2027.1.5",
+  "platform": "windows-x64",
+  "privateSourceSHA": "96b1f8e2eaa8b5876d25218410ca84769ee14491",
+  "installerSHA256": "4beb5ec6368af6ae5e8594903cf59ce74c569570d9f6216fbc09df287aa0cedb",
+  "executableSHA256": "4d3ef2acf4d66a2314a68dadc7b9e9c1538b9e68ac64e2d3f73c98a901eaef45",
+  "publicReleaseTag": "v2027.1.5",
+  "macOSVersionInThisManifest": null,
+  "qualification": "Build/tests/standard-installer/upgrade/Office/PDF/internal rendering checked; native screen and keyboard inconclusive; AutoCAD host/hardware/rollback not exercised",
+  "assets": [
+    {
+      "path": "Guide-Suite-SiLeMIO-FR.pdf",
+      "bytes": 406117,
+      "sha256": "d0397f4f36becf3b1c37f6bd348a3179ed7d0a61c7156a8e10487fd4b6189634"
+    },
+    {
+      "path": "Monitoring-Notes-Excel.md",
+      "bytes": 10516,
+      "sha256": "7d20e126ecd56ea4611ec280e604864a06c9f98427f9dcba6a864e04a2d4a265"
+    },
+    {
+      "path": "QUALIFICATION-WINDOWS-2027.1.5.md",
+      "bytes": 3685,
+      "sha256": "30e37c2eed5dd5ce3e7747719d27b4571fc303d108168586931abe96fffcaecd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 18437,
+      "sha256": "cfbd5832adacdf79538cffbe62596847645060eb46fc35d939bef8071e4abe4a"
+    },
+    {
+      "path": "RELEASE_NOTES_2027.1.5.md",
+      "bytes": 3316,
+      "sha256": "c7082295554863e0447e83728d26567dd1b45774495ebef78942e6994dac59f6"
+    },
+    {
+      "path": "SiLeMIO-StageFlow.streamDeckPlugin",
+      "bytes": 62751,
+      "sha256": "5b4b0a5b379e4fd87d44f3b83dcf67fd455a8557583ca363ebc291e9d186168c"
+    },
+    {
+      "path": "SiLeMIO-Suite-Guide-EN.pdf",
+      "bytes": 363744,
+      "sha256": "15a391604cfbee5ff06989f3462031742a9fb120934b34978fedcbdfb491269f"
+    },
+    {
+      "path": "StageFlow-2027.1.5-win-x64.zip",
+      "bytes": 90171771,
+      "sha256": "27313213339fa8fedec56773524b6a2c6bd0227963385617b730c0d7c9746aa4"
+    },
+    {
+      "path": "StageFlow-2027.1.5-win-x64.zip.sha256",
+      "bytes": 98,
+      "sha256": "371e56d0604254ef29df9eb38f5998bf8b5dfee0b970bd583cabadf038f62831"
+    },
+    {
+      "path": "StageFlow-AutoCAD-2027.1.5.bundle.zip",
+      "bytes": 228157,
+      "sha256": "1f4727623c2a50e690eb7349577011bd44b53f4a3f94c33f0ec4147809b4948b"
+    },
+    {
+      "path": "StageFlow-AutoCAD-2027.1.5.bundle.zip.sha256",
+      "bytes": 105,
+      "sha256": "a507a64251ae94d19557d61090a099aca5fdb19ea6c4aaceb6b85a1e7f4101a4"
+    },
+    {
+      "path": "StageFlow-Notice-FR.pdf",
+      "bytes": 228063,
+      "sha256": "6378709c45ba53b0e8cb1767f0576a6b1e91e80f783357b2afd694a7561718f7"
+    },
+    {
+      "path": "StageFlow-Setup.exe",
+      "bytes": 63499658,
+      "sha256": "4beb5ec6368af6ae5e8594903cf59ce74c569570d9f6216fbc09df287aa0cedb"
+    },
+    {
+      "path": "StageFlow-Setup.exe.sha256",
+      "bytes": 87,
+      "sha256": "42983019d438eb7c6924fdbecbed3ab494a3b9ef61d198393fc557c77f616695"
+    },
+    {
+      "path": "StageFlow-User-Guide-EN.pdf",
+      "bytes": 187994,
+      "sha256": "f3870c8dfda6c157220a6650843ec163c77893ed140e95efdf072c99fe692af9"
+    },
+    {
+      "path": "suite-guides-manifest.json",
+      "bytes": 3567,
+      "sha256": "0829390781fa577774f5548c299c0fe5ae509e15e3717b2d28ee8d8d1cd556e4"
+    }
+  ]
+}

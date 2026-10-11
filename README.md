@@ -13,14 +13,14 @@
   <a href="https://github.com/Mamat79/StageFlow/releases/latest"><strong>⬇ Télécharger StageFlow</strong></a>
 </p>
 
-**[Windows v2027.1.3](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.3/StageFlow-Setup.exe)** ·
+**[Windows v2027.1.5](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.5/StageFlow-Setup.exe)** ·
 **[Mac Apple Silicon v2027.1.3](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.3/StageFlow-2027.1.3-macos-arm64.dmg)** ·
 **[Mac Intel v2027.1.3](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.3/StageFlow-2027.1.3-macos-x64.dmg)**
 
 Les versions Windows et Mac sont livrées séparément. Le nom affiché reste
 **StageFlow v2027** ; les numéros exacts ci-dessus identifient chaque paquet.
 
-La Release **2027.1.3** est publique depuis le 2 octobre 2026. [Notes actuelles](RELEASE_NOTES_2027.1.3.md). Les mentions « candidate » ou « draft » du corps historique de Release ne décrivent plus son statut de publication; les limites de recette demeurent.
+**Windows 2027.1.5** ajoute les onglets Monitoring et Notes par groupe, les circuits wedges/IEM et la liaison volontaire Excel ↔ StageFlow. [Mode d’emploi](Monitoring-Notes-Excel.md) · [Notes de version](RELEASE_NOTES_2027.1.5.md) · [Contrôles et limites](QUALIFICATION-WINDOWS-2027.1.5.md). Les liens Mac ci-dessus restent explicitement en **2027.1.3** tant que les paquets Mac 2027.1.5 ne sont pas publiés. La liaison native Excel de cette version concerne Windows avec Excel de bureau installé.
 
 ---
 
