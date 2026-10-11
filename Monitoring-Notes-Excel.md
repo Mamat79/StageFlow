@@ -1,4 +1,4 @@
-# StageFlow 2027.1.5 — Monitoring, Notes et Excel
+# StageFlow — Monitoring, Notes et Excel
 
 ## Utiliser les onglets
 
@@ -12,7 +12,7 @@ Notes contient un texte libre propre au groupe. Les circuits et les notes suiven
 
 Dans l’export Excel, choisissez si vous souhaitez inclure Monitoring et Notes. Les informations apparaissent sous chaque patch dans la feuille d’ensemble et après le patch dans chaque fiche de groupe. La visibilité de l’onglet dans StageFlow ne supprime pas ses données et ne remplace pas le choix d’export.
 
-L’option recto verso réserve un nombre pair de pages à chaque groupe : le groupe suivant commence sur un recto. Pour un patch court, le patch est en page 1 et les informations en page 2. Les textes longs continuent sur des pages supplémentaires, puis une page de fin complète la fiche si nécessaire. Un patch long peut lui aussi nécessiter plusieurs pages.
+Avec **une page de patch par groupe**, le patch complet est ajusté au recto et Monitoring et Notes commencent à la page suivante. Vérifiez la lisibilité dans l’aperçu et choisissez un papier plus grand si nécessaire. Avec plusieurs pages de patch, le patch peut continuer avant les informations supplémentaires. L’option recto verso réserve un nombre pair de pages à chaque groupe : le groupe suivant commence sur un recto. Les textes longs continuent sur des pages supplémentaires, puis une page de fin complète la fiche si nécessaire. Le bandeau de la fiche donne le nom du groupe ; le nom et le numéro de page figurent en pied de page, sans second titre au-dessus du bandeau.
 
 Dans Excel, sélectionnez les feuilles de groupes à imprimer puis consultez **Fichier → Imprimer**. Activez le recto verso dans les réglages de votre imprimante ; l’option de StageFlow organise les pages du document. Les feuilles Commun et les feuilles techniques ne font pas partie de l’export PDF de fiches.
 
@@ -22,7 +22,9 @@ Sous Windows, le bouton PDF utilise Microsoft Excel de bureau installé. Sur mac
 
 **Connecter Excel** crée un nouveau classeur connecté et l’ouvre dans une instance dédiée de Microsoft Excel de bureau. Le projet StageFlow et ce classeur sont alors rapprochés environ chaque seconde pendant que StageFlow et Excel restent ouverts. Un simple export XLSX reste un fichier autonome ; sa modification ne met pas StageFlow à jour automatiquement.
 
-Le classeur connecté contient trois feuilles d’édition :
+Dans le classeur connecté, vous pouvez saisir directement les **sources**, **micros** et **commentaires communs** dans **Commun**, ainsi que les **sources et micros propres à chaque groupe**, dans les colonnes déjà présentes. La présentation reste la même. Effacer une valeur propre à un groupe efface cette valeur locale, sans effacer la source commune. Les numéros de paires et les en-têtes restent protégés. Les fiches individuelles de groupes restent des vues imprimables protégées.
+
+Le classeur conserve aussi les trois feuilles d’édition :
 
 | Feuille | Données à modifier |
 | --- | --- |
@@ -36,7 +38,7 @@ Pour ajouter un circuit, ajoutez une ligne dans le tableau Monitoring, laissez l
 
 Supprimer une ligne de Monitoring supprime ce circuit. Supprimer une ligne de Patch efface les données de la paire ; la paire conserve son numéro et une ligne vide est rétablie. Créez et supprimez les groupes ou changez le nombre de paires dans StageFlow. Après un changement de structure qui suspend la liaison, déconnectez puis reconnectez Excel en choisissant de créer un nouveau classeur. Les indicateurs utilisent `True` et `False`. Les champs sont validés avant leur application au projet ; un numéro dupliqué, une quantité invalide ou une identité endommagée suspend la liaison avec un message.
 
-Les fiches imprimables sont des vues protégées, régénérées à partir du projet quand les données changent. Écrivez dans les tableaux d’édition. Les cellules et colonnes personnelles ajoutées dans les feuilles d’édition sont conservées. Une formule de tableau dont la valeur est compatible est conservée ; StageFlow suspend une écriture qui remplacerait une formule ou supprimerait des données personnelles ajoutées à une ligne. Une erreur de formule suspend la lecture.
+Les fiches imprimables sont régénérées à partir du projet quand les données changent. Dans Commun, seules les cellules du patch décrites ci-dessus sont modifiables ; Monitoring et Notes se modifient dans leurs feuilles d’édition. Les cellules et colonnes personnelles ajoutées dans les feuilles d’édition sont conservées. Une formule dont la valeur est compatible est conservée ; StageFlow suspend une écriture qui remplacerait une formule ou supprimerait des données personnelles ajoutées à une ligne. Une erreur de formule suspend la lecture. Si Commun et Edition Patch contiennent deux nouvelles valeurs différentes pour un même champ, choisissez la même valeur dans les deux cellules avant de reprendre. Déverrouiller volontairement une fiche suspend toujours son actualisation pour préserver votre travail.
 
 La liaison conserve la feuille, la cellule sélectionnée et la position de défilement lors des actualisations. Les contrôles sont planifiés environ chaque seconde ; le transfert et la régénération des fiches peuvent prendre plusieurs secondes selon le contenu et Office. Ce travail s’exécute sur un fil dédié et StageFlow reste utilisable. Pendant la phase d’écriture et de mise à jour des vues, la saisie dans cette instance Excel est temporairement suspendue ; la barre d’état Excel indique l’actualisation puis reprend son état précédent. Pendant une saisie bloquant Excel, la liaison attend puis reprend automatiquement. Si vous activez un autre classeur dans cette instance dédiée, elle attend que le classeur connecté soit de nouveau actif.
 
@@ -54,11 +56,11 @@ La liaison utilise Excel de bureau Windows et nécessite qu’il soit installé.
 
 Each group opens on its Patch tab. Enable **Monitoring** and **Notes** to show optional tabs; hiding them preserves the data. Monitoring stores wedge and IEM circuits with stable identities, a number, name, recipient, model, quantity and multiline notes. Numbers are unique within a group and circuit type. Group notes are free text. Monitoring and notes use the existing project save and LIVE workflow without label alerts; patch source edits retain the session’s alerts.
 
-Excel export can include monitoring and notes below each overview patch and after the patch in group sheets. Duplex layout gives each group an even number of pages so the following group starts on a front side. Long patches and notes continue on additional pages. Enable duplex printing in your printer settings and select the group sheets. Windows PDF export uses installed Microsoft Excel; on macOS export XLSX and print or create a PDF in your spreadsheet application.
+Excel export can include monitoring and notes below each overview patch and after the patch in group sheets. With one patch page per group, the complete patch fits on the front and supplements start on the next page. Check readability and choose larger paper if needed. Multiple-page patch mode allows the patch to continue before the supplements. Duplex layout gives each group an even number of pages so the following group starts on a front side. Long notes continue on additional pages. The coloured title identifies the group, with its name and page number in the footer and no duplicate printer header. Enable duplex printing in your printer settings and select the group sheets. Windows PDF export uses installed Microsoft Excel; on macOS export XLSX and print or create a PDF in your spreadsheet application.
 
 **Connect Excel** voluntarily creates and opens a linked workbook in a dedicated Windows desktop Excel instance. StageFlow reconciles changes approximately once per second while both applications and the linked workbook remain open. A normal exported XLSX is independent.
 
-Edit the tables on **Edition Patch**, **Edition Monitoring** and **Edition Notes**. Keep the table and column names and hidden `_Id` / `_GroupId` identity columns. Sorting does not change identities. Technical headers remain stable in both interface languages. Printable sheets are protected managed views; they refresh when project data changes. Additional user cells and columns on editing sheets are preserved.
+Edit sources, microphones and common comments directly on **Commun**, including group-specific sources and microphones in their existing columns. Its appearance stays unchanged. Clearing a group value clears its local override without changing the common source. Pair numbers and headings stay protected; individual group sheets remain protected print views. **Edition Patch**, **Edition Monitoring** and **Edition Notes** remain available. Monitoring and group notes are edited in their editing tables. Keep the table and column names and hidden `_Id` / `_GroupId` identity columns. Sorting does not change identities. Technical headers remain stable in both interface languages. Printable sheets refresh when project data changes. Additional user cells and columns on editing sheets are preserved. If Commun and Edition Patch contain different new values for the same field, set the same value in both cells before resuming. Deliberately unlocking a print view still suspends its refresh to preserve your work.
 
 To add a circuit, insert a Monitoring table row with blank IDs, a unique **Group** name, **Kind** `Wedge` or `IEM`, and positive integer **Number** and **Quantity** values. Copy visible fields only when duplicating a circuit. Deleting a Monitoring row removes the circuit. Deleting a Patch row clears that pair and restores its blank row without renumbering it. Change group and pair structure in StageFlow. Flags accept `True` / `False`.
 
