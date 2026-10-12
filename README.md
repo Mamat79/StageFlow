@@ -13,18 +13,18 @@
   <a href="https://github.com/Mamat79/StageFlow/releases/latest"><strong>⬇ Télécharger StageFlow</strong></a>
 </p>
 
-**[Windows v2027.1.7](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.7/StageFlow-Setup.exe)** ·
+**[Windows v2027.1.8](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.8/StageFlow-Setup.exe)** ·
 **[Mac Apple Silicon v2027.1.5](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.5/StageFlow-2027.1.5-macos-arm64.dmg)** ·
 **[Mac Intel v2027.1.5](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.5/StageFlow-2027.1.5-macos-x64.dmg)**
 
 Les versions Windows et Mac sont livrées séparément. Le nom affiché reste
 **StageFlow v2027** ; les numéros exacts ci-dessus identifient chaque paquet.
 
-**Windows 2027.1.7** permet d'éditer directement Commun dans les deux sens et corrige l'impression : patch complet au recto, Monitoring/Notes au verso, en-têtes sans doublon. [Mode d'emploi](Monitoring-Notes-Excel.md) · [Notes de version](RELEASE_NOTES_2027.1.7.md) · [Contrôles et limites](QUALIFICATION-WINDOWS-2027.1.7.md). Les paquets Mac restent en **2027.1.5**, pour macOS14 ou ultérieur, dans leur release existante. La liaison native exige Excel de bureau sous Windows.
+**Windows 2027.1.8** : le panneau **Tableur** détecte les changements sans transfert automatique. Cliquez sur **Mettre à jour…**, comparez et choisissez séparément chaque conflit ; annuler conserve les saisies. Commun reste modifiable, les revues périmées sont rejetées, une copie précède le transfert et un échec permet une nouvelle comparaison. Patch complet au recto, Monitoring/Notes au verso conservés. [Mode d'emploi](Monitoring-Notes-Excel.md) · [Notes](RELEASE_NOTES_2027.1.8.md) · [Contrôles et limites](QUALIFICATION-WINDOWS-2027.1.8.md).
 
-**Vérifications 1.7 :** 31 essais Office sur DLL livrées, extraction du vrai Setup et examen des PDF recto/verso. Au moment de la publication, installation/mise à niveau/raccourcis/rollback non encore exercés ; une mise à jour personnelle autorisée sera reçue séparément. Interface native/clavier/DPI et matériel restent non qualifiés. Les cycles de liaison prennent des secondes ou dizaines de secondes.
+**41 nouveaux essais Excel/WPF sur les DLL livrées réussis**, vrai Setup extrait et quatre pages PDF examinées. Choix de conflits injectés par QA ; pas de recette exhaustive des clics/clavier/DPI ou du matériel. Installation personnelle documentée après publication dans un reçu privé séparé ; restauration non exercée. Enregistrez le projet et le classeur séparément. La liaison exige Excel de bureau Windows et ne reprend pas automatiquement au démarrage. macOS reste réellement **2027.1.5**, minimum14, dans sa release existante.
 
-**Windows 2027.1.7** supports two-way direct Commun editing and corrected duplex print layout: complete patch on the front, Monitoring/Notes on the back, no duplicate headers. **31 real Office checks passed on delivered DLLs**, actual Setup contents and duplex PDFs verified. At publication time installer execution/upgrade/shortcuts/rollback are unexercised and require a separate personal-update receipt. Native UI/keyboard/DPI and hardware remain unqualified. Refresh takes seconds or tens of seconds. Mac remains **2027.1.5** with its own limits.
+**Windows 2027.1.8**: the **Spreadsheet** panel detects pending changes without automatic transfer. Click **Update…**, review and choose each conflict separately; cancel retains both versions. Commun remains editable, stale reviews are rejected, a copy precedes transfer and failures permit a fresh review. Complete patch on the front and Monitoring/Notes on the back are retained. **41 new Excel/WPF checks passed on delivered DLLs**, actual Setup extracted and four PDF pages visually checked. Conflict choices are injected by QA; not exhaustive human mouse/keyboard/DPI or hardware acceptance. Personal installation is documented separately after publication, rollback unexercised. Save project and workbook separately; desktop Windows Excel is required and the link never reconnects automatically. Mac remains genuine **2027.1.5** with its existing limits.
 
 ---
 
