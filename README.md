@@ -14,17 +14,17 @@
 </p>
 
 **[Windows v2027.1.8](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.8/StageFlow-Setup.exe)** ·
-**[Mac Apple Silicon v2027.1.5](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.5/StageFlow-2027.1.5-macos-arm64.dmg)** ·
-**[Mac Intel v2027.1.5](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.5/StageFlow-2027.1.5-macos-x64.dmg)**
+**[Mac Apple Silicon v2027.1.8](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.8/StageFlow-2027.1.8-macos-arm64.dmg)** ·
+**[Mac Intel v2027.1.8](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.8/StageFlow-2027.1.8-macos-x64.dmg)**
 
 Les versions Windows et Mac sont livrées séparément. Le nom affiché reste
 **StageFlow v2027** ; les numéros exacts ci-dessus identifient chaque paquet.
 
 **Windows 2027.1.8** : le panneau **Tableur** détecte les changements sans transfert automatique. Cliquez sur **Mettre à jour…**, comparez et choisissez séparément chaque conflit ; annuler conserve les saisies. Commun reste modifiable, les revues périmées sont rejetées, une copie précède le transfert et un échec permet une nouvelle comparaison. Patch complet au recto, Monitoring/Notes au verso conservés. [Mode d'emploi](Monitoring-Notes-Excel.md) · [Notes](RELEASE_NOTES_2027.1.8.md) · [Contrôles et limites](QUALIFICATION-WINDOWS-2027.1.8.md).
 
-**41 nouveaux essais Excel/WPF sur les DLL livrées réussis**, vrai Setup extrait et quatre pages PDF examinées. Choix de conflits injectés par QA ; pas de recette exhaustive des clics/clavier/DPI ou du matériel. Installation personnelle documentée après publication dans un reçu privé séparé ; restauration non exercée. Enregistrez le projet et le classeur séparément. La liaison exige Excel de bureau Windows et ne reprend pas automatiquement au démarrage. macOS reste réellement **2027.1.5**, minimum14, dans sa release existante.
+**41 nouveaux essais Excel/WPF sur les DLL livrées réussis**, vrai Setup extrait et quatre pages PDF examinées. Choix de conflits injectés par QA ; pas de recette exhaustive des clics/clavier/DPI ou du matériel. Installation personnelle documentée après publication dans un reçu privé séparé ; restauration non exercée. Enregistrez le projet et le classeur séparément. La liaison exige Excel de bureau Windows et ne reprend pas automatiquement au démarrage. macOS **2027.1.8** corrige la concurrence entre sauvegarde LIVE automatique et sauvegarde explicite. Provenance Mac : `c8e31774d9c6a9551012fd23d680271634717a4e`, distincte du Windows livré. Qualification et empreintes : [qualification Mac et SHA-256](https://github.com/Mamat79/StageFlow/releases/tag/v2027.1.8). La liaison Excel de bureau reste réservée à Windows.
 
-**Windows 2027.1.8**: the **Spreadsheet** panel detects pending changes without automatic transfer. Click **Update…**, review and choose each conflict separately; cancel retains both versions. Commun remains editable, stale reviews are rejected, a copy precedes transfer and failures permit a fresh review. Complete patch on the front and Monitoring/Notes on the back are retained. **41 new Excel/WPF checks passed on delivered DLLs**, actual Setup extracted and four PDF pages visually checked. Conflict choices are injected by QA; not exhaustive human mouse/keyboard/DPI or hardware acceptance. Personal installation is documented separately after publication, rollback unexercised. Save project and workbook separately; desktop Windows Excel is required and the link never reconnects automatically. Mac remains genuine **2027.1.5** with its existing limits.
+**Windows 2027.1.8**: the **Spreadsheet** panel detects pending changes without automatic transfer. Click **Update…**, review and choose each conflict separately; cancel retains both versions. Commun remains editable, stale reviews are rejected, a copy precedes transfer and failures permit a fresh review. Complete patch on the front and Monitoring/Notes on the back are retained. **41 new Excel/WPF checks passed on delivered DLLs**, actual Setup extracted and four PDF pages visually checked. Conflict choices are injected by QA; not exhaustive human mouse/keyboard/DPI or hardware acceptance. Personal installation is documented separately after publication, rollback unexercised. Save project and workbook separately; desktop Windows Excel is required and the link never reconnects automatically. Mac **2027.1.8** fixes concurrent LIVE automatic and explicit saves. Mac source: `c8e31774d9c6a9551012fd23d680271634717a4e`, distinct from the Windows package. Qualification and checksums: [qualification Mac et SHA-256](https://github.com/Mamat79/StageFlow/releases/tag/v2027.1.8). Desktop Excel linking remains Windows-only.
 
 ---
 
@@ -226,7 +226,7 @@ StageFlow.
 
 ## Installation macOS
 
-StageFlow v2027.1.5 est disponible pour **macOS 14 ou ultérieur**, en deux éditions
+StageFlow v2027.1.8 est disponible pour **macOS 14 ou ultérieur**, en deux éditions
 autonomes : **Apple Silicon** (puces M) et **Intel**. Choisissez le téléchargement
 adapté en haut de cette page, ouvrez le DMG et glissez **StageFlow.app** dans
 Applications. Enregistrez et quittez une version déjà ouverte avant de la remplacer.
@@ -315,9 +315,9 @@ maintained separately.
 
 ### Install on Mac
 
-**macOS 14 or later** is supported by StageFlow v2027.1.5, with separate
-[Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.5/StageFlow-2027.1.5-macos-arm64.dmg)
-and [Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.5/StageFlow-2027.1.5-macos-x64.dmg)
+**macOS 14 or later** is supported by StageFlow v2027.1.8, with separate
+[Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.8/StageFlow-2027.1.8-macos-arm64.dmg)
+and [Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.8/StageFlow-2027.1.8-macos-x64.dmg)
 downloads. Open the matching DMG and drag **StageFlow.app** into Applications.
 Save and quit any previous version before replacing it.
 The first window may take about ten seconds to appear on some Intel Macs.
@@ -342,3 +342,17 @@ contract. The AutoCAD connector remains Windows-only.
 ---
 
 <p align="center"><strong>SiLeMIO · By Mamat----[]---</strong></p>
+
+
+## Qualification macOS 2027.1.8
+
+**Qualification Mac :** 42 tests Mac et 424 tests au total ont réussi sur le runner Apple Silicon. Le véritable DMG ARM a été monté et son application démarrée avec un projet, sans recette visuelle. Les deux paquets autonomes .NET 10 exigent macOS 14 ou ultérieur ; leurs architectures et les quatre guides approuvés ont été vérifiés. Le paquet Intel a été construit sur Apple Silicon et inspecté, sans exécution sur un Mac Intel. Signatures d’intégrité ad-hoc vérifiées, sans Developer ID ni notarisation Apple. Pas de recette complète des clics/clavier, du matériel MIDI/Stream Deck ou du réseau physique. La liaison Excel de bureau reste réservée à Windows.
+
+**Mac qualification:** 42 Mac tests and 424 tests overall passed on the Apple Silicon runner. The actual ARM DMG was mounted and its application started with a project; this was a nonvisual launch. Both self-contained .NET 10 packages require macOS 14 or later; architectures and the four approved guides were verified. The Intel package was built on Apple Silicon and structurally inspected, without execution on a native Intel Mac. Ad-hoc integrity signatures were verified; no Apple Developer ID signing or notarization. Full mouse/keyboard, physical MIDI/Stream Deck and physical network acceptance were not performed. Desktop Excel linking remains Windows-only.
+
+**SHA-256 des DMG / DMG checksums**
+
+```text
+226f352aa94e2311b1b6404f411a24c6f0a6aefc5e2edeb37fe394ec7f37d82f  StageFlow-2027.1.8-macos-arm64.dmg
+cca23c26b6467b716af739b7312ace29e8909480fe9f4922b343ef6125902955  StageFlow-2027.1.8-macos-x64.dmg
+```
