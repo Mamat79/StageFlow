@@ -13,12 +13,16 @@
   <a href="https://github.com/Mamat79/StageFlow/releases/latest"><strong>⬇ Télécharger StageFlow</strong></a>
 </p>
 
-**[Windows v2027.1.8](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.8/StageFlow-Setup.exe)** ·
-**[Mac Apple Silicon v2027.1.8](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.8/StageFlow-2027.1.8-macos-arm64.dmg)** ·
-**[Mac Intel v2027.1.8](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.8/StageFlow-2027.1.8-macos-x64.dmg)**
+**[Windows v2027.1.9](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.9/StageFlow-Setup.exe)** ·
+**[Mac Apple Silicon v2027.1.9](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.9/StageFlow-2027.1.9-macos-arm64.dmg)** ·
+**[Mac Intel v2027.1.9](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.9/StageFlow-2027.1.9-macos-x64.dmg)**
 
 Les versions Windows et Mac sont livrées séparément. Le nom affiché reste
 **StageFlow v2027** ; les numéros exacts ci-dessus identifient chaque paquet.
+
+**Livraison 2027.1.9 / Current release:** Windows corrige la fermeture en une seule demande ; copie locale, enregistrement, réouverture et remplacement personnel vérifiés sur le nouvel installeur. Windows source `c855b18` ; Mac existants source `bbd980c`, inchangés. [Qualification et limites FR/EN](QUALIFICATION-WINDOWS-2027.1.9.md) · [SHA-256 Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.9/SHA256SUMS-2027.1.9-Windows.txt). V1 reste par défaut ; V2 exige une copie locale explicite et ne prend pas en charge les échanges réseau/LIVE/AutoCAD. Windows Setup is unsigned; Mac uses ad-hoc signing, without Developer ID or notarization. See the qualification for separate Windows and Mac evidence and limits.
+
+### Historique 2027.1.8 — résultats de la livraison précédente / Previous-release evidence
 
 **Windows 2027.1.8** : le panneau **Tableur** détecte les changements sans transfert automatique. Cliquez sur **Mettre à jour…**, comparez et choisissez séparément chaque conflit ; annuler conserve les saisies. Commun reste modifiable, les revues périmées sont rejetées, une copie précède le transfert et un échec permet une nouvelle comparaison. Patch complet au recto, Monitoring/Notes au verso conservés. [Mode d'emploi](Monitoring-Notes-Excel.md) · [Notes](RELEASE_NOTES_2027.1.8.md) · [Contrôles et limites](QUALIFICATION-WINDOWS-2027.1.8.md).
 
@@ -226,7 +230,7 @@ StageFlow.
 
 ## Installation macOS
 
-StageFlow v2027.1.8 est disponible pour **macOS 14 ou ultérieur**, en deux éditions
+StageFlow v2027.1.9 est disponible pour **macOS 14 ou ultérieur**, en deux éditions
 autonomes : **Apple Silicon** (puces M) et **Intel**. Choisissez le téléchargement
 adapté en haut de cette page, ouvrez le DMG et glissez **StageFlow.app** dans
 Applications. Enregistrez et quittez une version déjà ouverte avant de la remplacer.
@@ -315,9 +319,9 @@ maintained separately.
 
 ### Install on Mac
 
-**macOS 14 or later** is supported by StageFlow v2027.1.8, with separate
-[Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.8/StageFlow-2027.1.8-macos-arm64.dmg)
-and [Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.8/StageFlow-2027.1.8-macos-x64.dmg)
+**macOS 14 or later** is supported by StageFlow v2027.1.9, with separate
+[Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.9/StageFlow-2027.1.9-macos-arm64.dmg)
+and [Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.9/StageFlow-2027.1.9-macos-x64.dmg)
 downloads. Open the matching DMG and drag **StageFlow.app** into Applications.
 Save and quit any previous version before replacing it.
 The first window may take about ten seconds to appear on some Intel Macs.
@@ -344,7 +348,7 @@ contract. The AutoCAD connector remains Windows-only.
 <p align="center"><strong>SiLeMIO · By Mamat----[]---</strong></p>
 
 
-## Qualification macOS 2027.1.8
+## Historique — qualification macOS 2027.1.8
 
 **Qualification Mac :** 42 tests Mac et 424 tests au total ont réussi sur le runner Apple Silicon. Le véritable DMG ARM a été monté et son application démarrée avec un projet, sans recette visuelle. Les deux paquets autonomes .NET 10 exigent macOS 14 ou ultérieur ; leurs architectures et les quatre guides approuvés ont été vérifiés. Le paquet Intel a été construit sur Apple Silicon et inspecté, sans exécution sur un Mac Intel. Signatures d’intégrité ad-hoc vérifiées, sans Developer ID ni notarisation Apple. Pas de recette complète des clics/clavier, du matériel MIDI/Stream Deck ou du réseau physique. La liaison Excel de bureau reste réservée à Windows.
 
