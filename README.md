@@ -13,14 +13,24 @@
   <a href="https://github.com/Mamat79/StageFlow/releases/latest"><strong>⬇ Télécharger StageFlow</strong></a>
 </p>
 
-**[Windows v2027.1.9](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.9/StageFlow-Setup.exe)** ·
-**[Mac Apple Silicon v2027.1.9](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.9/StageFlow-2027.1.9-macos-arm64.dmg)** ·
-**[Mac Intel v2027.1.9](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.9/StageFlow-2027.1.9-macos-x64.dmg)**
+**[Windows v2027.1.10](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.10/StageFlow-Setup.exe)** ·
+**[Mac Apple Silicon v2027.1.10](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.10/StageFlow-2027.1.10-macos-arm64.dmg)** ·
+**[Mac Intel v2027.1.10](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.10/StageFlow-2027.1.10-macos-x64.dmg)**
 
 Les versions Windows et Mac sont livrées séparément. Le nom affiché reste
 **StageFlow v2027** ; les numéros exacts ci-dessus identifient chaque paquet.
 
-**Livraison 2027.1.9 / Current release:** Windows corrige la fermeture en une seule demande ; copie locale, enregistrement, réouverture et remplacement personnel vérifiés sur le nouvel installeur. Windows source `c855b18` ; Mac existants source `bbd980c`, inchangés. [Qualification et limites FR/EN](QUALIFICATION-WINDOWS-2027.1.9.md) · [SHA-256 Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.9/SHA256SUMS-2027.1.9-Windows.txt). V1 reste par défaut ; V2 exige une copie locale explicite et ne prend pas en charge les échanges réseau/LIVE/AutoCAD. Windows Setup is unsigned; Mac uses ad-hoc signing, without Developer ID or notarization. See the qualification for separate Windows and Mac evidence and limits.
+**Livraison 2027.1.10 / Current release:** 29 commandes OSC, MIDI et Stream Deck, avec pause/reprise des alertes LIVE, reprise avec envoi volontaire des changements en pause et acquittement local. Le plugin Stream Deck 2026.3.1.0 attend la confirmation de StageFlow ; mettre à jour l'application et le plugin ensemble. Reprendre seul ne rejoue rien. Les quatre PDF approuvés restent inchangés ; [l'aide complémentaire](EXTERNAL-CONTROLS.md) décrit les cinq nouvelles commandes et une disposition de 15 touches. [Notes FR/EN](RELEASE_NOTES_2027.1.10.md).
+
+Plugins Stream Deck 2026.3.1.0 : [Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.10/SiLeMIO-StageFlow.streamDeckPlugin) · [macOS](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.10/SiLeMIO-StageFlow-Mac.streamDeckPlugin). [Toutes les sommes SHA-256 / All checksums](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.10/SHA256SUMS-2027.1.10-all-platforms.txt).
+
+Windows source `32c4890` : véritable installeur vérifié, commandes OSC et journal de labels exercés, mise à jour personnelle contrôlée avec conservation des réglages/projet/classeurs et fermeture normale. Mac source `d3bcbd3` : rendu OpenGL avec repli logiciel, évitant le chemin Metal qui échouait pendant la qualification ; véritable DMG Apple Silicon monté, ouverture avec/sans projet et fermeture normale vérifiées sans recette visuelle. Intel construit et inspecté, sans exécution native Intel. [Qualification Windows](QUALIFICATION-WINDOWS-2027.1.10.md) · [Qualification Mac](QUALIFICATION-MACOS-2027.1.10.md) · [SHA-256 Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.10/SHA256SUMS-2027.1.10-Windows.txt).
+
+**2027.1.10:** 29 OSC, MIDI and Stream Deck commands, including LIVE-alert pause/resume, explicit sending of paused changes and local acknowledgement. Matching plugin 2026.3.1.0 waits for StageFlow confirmation. Resume alone never replays paused changes. Mac uses OpenGL with software fallback; actual Apple Silicon DMG startup/project/normal shutdown were checked nonvisually. Intel was cross-built and statically inspected only. Approved PDFs remain unchanged; see the external-controls addendum for the five additions. Physical Stream Deck/MIDI, projection, audio and cross-machine networking are not certified by this release. Windows Setup is unsigned; Mac is ad-hoc signed, without Developer ID or Apple notarization. V1 remains the default; V2 requires an explicit local copy and does not support network/LIVE/AutoCAD exchanges.
+
+### Historique 2027.1.9 — résultats de la livraison précédente / Previous-release evidence
+
+**Livraison précédente 2027.1.9 / Previous release:** Windows corrige la fermeture en une seule demande ; copie locale, enregistrement, réouverture et remplacement personnel vérifiés sur le nouvel installeur. Windows source `c855b18` ; Mac existants source `bbd980c`, inchangés. [Qualification et limites FR/EN](QUALIFICATION-WINDOWS-2027.1.9.md) · [SHA-256 Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.9/SHA256SUMS-2027.1.9-Windows.txt). V1 reste par défaut ; V2 exige une copie locale explicite et ne prend pas en charge les échanges réseau/LIVE/AutoCAD. Windows Setup is unsigned; Mac uses ad-hoc signing, without Developer ID or notarization. See the qualification for separate Windows and Mac evidence and limits.
 
 ### Historique 2027.1.8 — résultats de la livraison précédente / Previous-release evidence
 
@@ -230,7 +240,7 @@ StageFlow.
 
 ## Installation macOS
 
-StageFlow v2027.1.9 est disponible pour **macOS 14 ou ultérieur**, en deux éditions
+StageFlow v2027.1.10 est disponible pour **macOS 14 ou ultérieur**, en deux éditions
 autonomes : **Apple Silicon** (puces M) et **Intel**. Choisissez le téléchargement
 adapté en haut de cette page, ouvrez le DMG et glissez **StageFlow.app** dans
 Applications. Enregistrez et quittez une version déjà ouverte avant de la remplacer.
@@ -319,9 +329,9 @@ maintained separately.
 
 ### Install on Mac
 
-**macOS 14 or later** is supported by StageFlow v2027.1.9, with separate
-[Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.9/StageFlow-2027.1.9-macos-arm64.dmg)
-and [Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.9/StageFlow-2027.1.9-macos-x64.dmg)
+**macOS 14 or later** is supported by StageFlow v2027.1.10, with separate
+[Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.10/StageFlow-2027.1.10-macos-arm64.dmg)
+and [Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.10/StageFlow-2027.1.10-macos-x64.dmg)
 downloads. Open the matching DMG and drag **StageFlow.app** into Applications.
 Save and quit any previous version before replacing it.
 The first window may take about ten seconds to appear on some Intel Macs.
