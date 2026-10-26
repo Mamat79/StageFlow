@@ -13,14 +13,24 @@
   <a href="https://github.com/Mamat79/StageFlow/releases/latest"><strong>⬇ Télécharger StageFlow</strong></a>
 </p>
 
-**[Windows v2027.1.10](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.10/StageFlow-Setup.exe)** ·
-**[Mac Apple Silicon v2027.1.10](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.10/StageFlow-2027.1.10-macos-arm64.dmg)** ·
-**[Mac Intel v2027.1.10](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.10/StageFlow-2027.1.10-macos-x64.dmg)**
+**[Windows v2027.1.11](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.11/StageFlow-Setup.exe)** ·
+**[Mac Apple Silicon v2027.1.11](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.11/StageFlow-2027.1.11-macos-arm64.dmg)** ·
+**[Mac Intel v2027.1.11](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.11/StageFlow-2027.1.11-macos-x64.dmg)**
 
 Les versions Windows et Mac sont livrées séparément. Le nom affiché reste
 **StageFlow v2027** ; les numéros exacts ci-dessus identifient chaque paquet.
 
-**Livraison 2027.1.10 / Current release:** 29 commandes OSC, MIDI et Stream Deck, avec pause/reprise des alertes LIVE, reprise avec envoi volontaire des changements en pause et acquittement local. Le plugin Stream Deck 2026.3.1.0 attend la confirmation de StageFlow ; mettre à jour l'application et le plugin ensemble. Reprendre seul ne rejoue rien. Les quatre PDF approuvés restent inchangés ; [l'aide complémentaire](EXTERNAL-CONTROLS.md) décrit les cinq nouvelles commandes et une disposition de 15 touches. [Notes FR/EN](RELEASE_NOTES_2027.1.10.md).
+**Livraison 2027.1.11 / Current release:** nouvelle disposition Windows et Mac : groupes à gauche, tableau central plus disponible, inspecteur Projet/Tableur repliable, commandes principales accessibles et bande compacte des six intégrations. Thèmes clair/sombre, français/anglais et préférences conservés. Les29 commandes externes et les quatre PDF approuvés restent inchangés. [Notes FR/EN](RELEASE_NOTES_2027.1.11.md).
+
+**2027.1.11:** a quieter native layout on Windows and Mac, with left-hand groups, more central table space, a foldable Project/Spreadsheet inspector and a compact strip for all six integrations. Existing themes, languages, settings and29 external commands are retained. Windows was locally built, installed and checked; actual ARM DMG startup/project/normal quit was checked nonvisually. Intel was cross-built and statically inspected only. [Windows qualification](QUALIFICATION-WINDOWS-2027.1.11.md) · [Mac qualification](QUALIFICATION-MACOS-2027.1.11.md) · [SHA-256 / checksums](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.11/SHA256SUMS-2027.1.11-all-platforms.txt).
+
+Plugins Stream Deck2026.3.1.0 : [Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.11/SiLeMIO-StageFlow.streamDeckPlugin) · [macOS](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.11/SiLeMIO-StageFlow-Mac.streamDeckPlugin). [Aide des29 commandes / 29-command help](EXTERNAL-CONTROLS.md).
+
+Windows Setup non signé / unsigned. Mac : signature ad-hoc, sans Developer ID ni notarisation Apple. Matériel Stream Deck/MIDI, audio, projection et réseau entre postes non qualifiés / physical hardware and cross-machine networking unqualified. V1 reste par défaut / remains default ; V2 reste une copie locale explicite sans échanges réseau/LIVE/AutoCAD.
+
+### Historique 2027.1.10 — résultats précédents / Previous-release evidence
+
+**Livraison précédente 2027.1.10 / Previous release:** 29 commandes OSC, MIDI et Stream Deck, avec pause/reprise des alertes LIVE, reprise avec envoi volontaire des changements en pause et acquittement local. Le plugin Stream Deck 2026.3.1.0 attend la confirmation de StageFlow ; mettre à jour l'application et le plugin ensemble. Reprendre seul ne rejoue rien. Les quatre PDF approuvés restent inchangés ; [l'aide complémentaire](EXTERNAL-CONTROLS.md) décrit les cinq nouvelles commandes et une disposition de 15 touches. [Notes FR/EN](RELEASE_NOTES_2027.1.10.md).
 
 Plugins Stream Deck 2026.3.1.0 : [Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.10/SiLeMIO-StageFlow.streamDeckPlugin) · [macOS](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.10/SiLeMIO-StageFlow-Mac.streamDeckPlugin). [Toutes les sommes SHA-256 / All checksums](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.10/SHA256SUMS-2027.1.10-all-platforms.txt).
 
@@ -240,7 +250,7 @@ StageFlow.
 
 ## Installation macOS
 
-StageFlow v2027.1.10 est disponible pour **macOS 14 ou ultérieur**, en deux éditions
+StageFlow v2027.1.11 est disponible pour **macOS 14 ou ultérieur**, en deux éditions
 autonomes : **Apple Silicon** (puces M) et **Intel**. Choisissez le téléchargement
 adapté en haut de cette page, ouvrez le DMG et glissez **StageFlow.app** dans
 Applications. Enregistrez et quittez une version déjà ouverte avant de la remplacer.
@@ -329,9 +339,9 @@ maintained separately.
 
 ### Install on Mac
 
-**macOS 14 or later** is supported by StageFlow v2027.1.10, with separate
-[Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.10/StageFlow-2027.1.10-macos-arm64.dmg)
-and [Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.10/StageFlow-2027.1.10-macos-x64.dmg)
+**macOS 14 or later** is supported by StageFlow v2027.1.11, with separate
+[Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.11/StageFlow-2027.1.11-macos-arm64.dmg)
+and [Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.11/StageFlow-2027.1.11-macos-x64.dmg)
 downloads. Open the matching DMG and drag **StageFlow.app** into Applications.
 Save and quit any previous version before replacing it.
 The first window may take about ten seconds to appear on some Intel Macs.
@@ -370,3 +380,4 @@ contract. The AutoCAD connector remains Windows-only.
 226f352aa94e2311b1b6404f411a24c6f0a6aefc5e2edeb37fe394ec7f37d82f  StageFlow-2027.1.8-macos-arm64.dmg
 cca23c26b6467b716af739b7312ace29e8909480fe9f4922b343ef6125902955  StageFlow-2027.1.8-macos-x64.dmg
 ```
+
