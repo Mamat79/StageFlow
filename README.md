@@ -13,14 +13,22 @@
   <a href="https://github.com/Mamat79/StageFlow/releases/latest"><strong>⬇ Télécharger StageFlow</strong></a>
 </p>
 
-**[Windows v2027.1.11](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.11/StageFlow-Setup.exe)** ·
-**[Mac Apple Silicon v2027.1.11](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.11/StageFlow-2027.1.11-macos-arm64.dmg)** ·
-**[Mac Intel v2027.1.11](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.11/StageFlow-2027.1.11-macos-x64.dmg)**
+**[Windows v2027.1.12](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.12/StageFlow-Setup.exe)** ·
+**[Mac Apple Silicon v2027.1.12](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.12/StageFlow-2027.1.12-macos-arm64.dmg)** ·
+**[Mac Intel v2027.1.12](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.12/StageFlow-2027.1.12-macos-x64.dmg)**
 
 Les versions Windows et Mac sont livrées séparément. Le nom affiché reste
 **StageFlow v2027** ; les numéros exacts ci-dessus identifient chaque paquet.
 
-**Livraison 2027.1.11 / Current release:** nouvelle disposition Windows et Mac : groupes à gauche, tableau central plus disponible, inspecteur Projet/Tableur repliable, commandes principales accessibles et bande compacte des six intégrations. Thèmes clair/sombre, français/anglais et préférences conservés. Les29 commandes externes et les quatre PDF approuvés restent inchangés. [Notes FR/EN](RELEASE_NOTES_2027.1.11.md).
+**Livraison 2027.1.12 / Current release:** groupe actif et sélection mieux repérables, colonne Origine pour distinguer le Commun du groupe, bouton Enregistrer dans l’en-tête, panneau Projet · Tableur repliable. Le connecteur AutoCAD facultatif reste destiné à AutoCAD complet 2026.
+
+**2027.1.12:** clearer active group and row selection, a new Origin column, a header Save button and a collapsible Project · Spreadsheet panel. The optional AutoCAD connector remains for full AutoCAD 2026.
+
+[Notes FR/EN](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.12/RELEASE_NOTES_2027.1.12.md) · [Sommes SHA-256 / Checksums](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.12/SHA256SUMS-2027.1.12-all-platforms.txt) · [Publication / Release](https://github.com/Mamat79/StageFlow/releases/tag/v2027.1.12)
+
+### Historique 2027.1.11 — résultats précédents / Previous-release evidence
+
+**Livraison précédente 2027.1.11 / Previous release:** nouvelle disposition Windows et Mac : groupes à gauche, tableau central plus disponible, inspecteur Projet/Tableur repliable, commandes principales accessibles et bande compacte des six intégrations. Thèmes clair/sombre, français/anglais et préférences conservés. Les29 commandes externes et les quatre PDF approuvés restent inchangés. [Notes FR/EN](RELEASE_NOTES_2027.1.11.md).
 
 **2027.1.11:** a quieter native layout on Windows and Mac, with left-hand groups, more central table space, a foldable Project/Spreadsheet inspector and a compact strip for all six integrations. Existing themes, languages, settings and29 external commands are retained. Windows was locally built, installed and checked; actual ARM DMG startup/project/normal quit was checked nonvisually. Intel was cross-built and statically inspected only. [Windows qualification](QUALIFICATION-WINDOWS-2027.1.11.md) · [Mac qualification](QUALIFICATION-MACOS-2027.1.11.md) · [SHA-256 / checksums](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.11/SHA256SUMS-2027.1.11-all-platforms.txt).
 
@@ -250,7 +258,7 @@ StageFlow.
 
 ## Installation macOS
 
-StageFlow v2027.1.11 est disponible pour **macOS 14 ou ultérieur**, en deux éditions
+StageFlow v2027.1.12 est disponible pour **macOS 14 ou ultérieur**, en deux éditions
 autonomes : **Apple Silicon** (puces M) et **Intel**. Choisissez le téléchargement
 adapté en haut de cette page, ouvrez le DMG et glissez **StageFlow.app** dans
 Applications. Enregistrez et quittez une version déjà ouverte avant de la remplacer.
@@ -339,9 +347,9 @@ maintained separately.
 
 ### Install on Mac
 
-**macOS 14 or later** is supported by StageFlow v2027.1.11, with separate
-[Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.11/StageFlow-2027.1.11-macos-arm64.dmg)
-and [Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.11/StageFlow-2027.1.11-macos-x64.dmg)
+**macOS 14 or later** is supported by StageFlow v2027.1.12, with separate
+[Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.12/StageFlow-2027.1.12-macos-arm64.dmg)
+and [Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.12/StageFlow-2027.1.12-macos-x64.dmg)
 downloads. Open the matching DMG and drag **StageFlow.app** into Applications.
 Save and quit any previous version before replacing it.
 The first window may take about ten seconds to appear on some Intel Macs.
@@ -380,4 +388,5 @@ contract. The AutoCAD connector remains Windows-only.
 226f352aa94e2311b1b6404f411a24c6f0a6aefc5e2edeb37fe394ec7f37d82f  StageFlow-2027.1.8-macos-arm64.dmg
 cca23c26b6467b716af739b7312ace29e8909480fe9f4922b343ef6125902955  StageFlow-2027.1.8-macos-x64.dmg
 ```
+
 
