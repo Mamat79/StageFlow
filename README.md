@@ -1,392 +1,64 @@
-<p align="center">
-  <img src="stageflow-logo.png" alt="StageFlow" width="680">
-</p>
+<p align="center"><img src="stageflow-logo.png" alt="StageFlow" width="680"></p>
 
-<h1 align="center">StageFlow v2027</h1>
+# StageFlow 2027.1.18
 
-<p align="center">
-  <strong>Préparez le patch, les groupes et le plan de scène dans un seul projet.</strong><br>
-  Gratuit · Hors ligne · Français / English · Windows / macOS
-</p>
+Préparez les patchs, les retours, les notes et les plans de scène dans un même projet.
 
-<p align="center">
-  <a href="https://github.com/Mamat79/StageFlow/releases/latest"><strong>⬇ Télécharger StageFlow</strong></a>
-</p>
+**Essai complet de 30 jours, puis licence permanente à 79 € TTC pour Windows ou macOS.** Le pack StageFlow, StageDesk, StageMark et StageMon coûte 199 € TTC. L’achat peut être réalisé sans compte et rattaché ensuite à un compte après vérification de l’adresse de commande.
 
-**[Windows v2027.1.12](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.12/StageFlow-Setup.exe)** ·
-**[Mac Apple Silicon v2027.1.12](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.12/StageFlow-2027.1.12-macos-arm64.dmg)** ·
-**[Mac Intel v2027.1.12](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.12/StageFlow-2027.1.12-macos-x64.dmg)**
+**[Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.18/StageFlow-Setup.exe)** · **[Mac Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.18/StageFlow-2027.1.18-macos-arm64.dmg)** · **[Mac Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.18/StageFlow-2027.1.18-macos-x64.dmg)**
 
-Les versions Windows et Mac sont livrées séparément. Le nom affiché reste
-**StageFlow v2027** ; les numéros exacts ci-dessus identifient chaque paquet.
+[Site SiLeMIO](https://www.silemio.com/logiciels/stageflow) · [Notes de version FR/EN](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.18/RELEASE_NOTES_2027.1.18.md) · [Publication et fichiers de contrôle](https://github.com/Mamat79/StageFlow/releases/tag/v2027.1.18)
 
-**Livraison 2027.1.12 / Current release:** groupe actif et sélection mieux repérables, colonne Origine pour distinguer le Commun du groupe, bouton Enregistrer dans l’en-tête, panneau Projet · Tableur repliable. Le connecteur AutoCAD facultatif reste destiné à AutoCAD complet 2026.
+## Dans cette version
 
-**2027.1.12:** clearer active group and row selection, a new Origin column, a header Save button and a collapsible Project · Spreadsheet panel. The optional AutoCAD connector remains for full AutoCAD 2026.
+- **Excel direct sur Windows.** Connectez Excel installé sur le PC, puis laissez **Synchronisation directe** cochée. Les saisies validées passent dans les deux sens sans fermer le classeur ni recréer ses feuilles. Modifiez le patch dans **Commun**. Aucun complément à installer. Le mode manuel reste disponible en décochant la case.
+- **Conflits explicites.** Si les deux côtés modifient différemment le même champ, le direct se suspend. **Comparer et résoudre…** permet de choisir les valeurs à conserver. Les changements de structure et de pagination des notes nécessitent une mise à jour manuelle. Enregistrez le projet et le classeur pour conserver leurs données sur disque. Le temps d’échange dépend du projet et d’Excel.
+- **Alertes faciles à retrouver.** Suspendez toutes les alertes sans arrêter LIVE. À la reprise, choisissez un récapitulatif ou une reprise sans rattrapage. Le groupe, l’onglet Patch et la cellule Source concernés sont signalés jusqu’à l’acquittement local. L’appareil qui saisit ne reçoit pas sa propre alerte. Monitoring et Notes restent sans alerte de label.
+- **Un seul bouton de création du classeur.** Créer le classeur imprimable remplace le doublon Exporter Excel.
 
-[Notes FR/EN](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.12/RELEASE_NOTES_2027.1.12.md) · [Sommes SHA-256 / Checksums](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.12/SHA256SUMS-2027.1.12-all-platforms.txt) · [Publication / Release](https://github.com/Mamat79/StageFlow/releases/tag/v2027.1.12)
+Le mode direct concerne **Excel installé sous Windows**. Sur macOS, utilisez les échanges XLSX explicites. Excel dans le navigateur n’est pas pris en charge par cette liaison.
 
-### Historique 2027.1.11 — résultats précédents / Previous-release evidence
+## Préparer un show
 
-**Livraison précédente 2027.1.11 / Previous release:** nouvelle disposition Windows et Mac : groupes à gauche, tableau central plus disponible, inspecteur Projet/Tableur repliable, commandes principales accessibles et bande compacte des six intégrations. Thèmes clair/sombre, français/anglais et préférences conservés. Les29 commandes externes et les quatre PDF approuvés restent inchangés. [Notes FR/EN](RELEASE_NOTES_2027.1.11.md).
+- Un patch et un plan de scène par groupe, avec patch commun et surcharges propres aux groupes.
+- Circuits wedges et IEM : numéro, nom, destinataire, modèle, quantité et notes ; notes libres par groupe.
+- **Import automatique facultatif des fiches techniques.** Ajoutez la compétence IA locale si vous le souhaitez, choisissez où télécharger le modèle et importez plusieurs documents. Les propositions par groupe restent identifiées comme imports automatiques et doivent être vérifiées. Vous pouvez les modifier et retirer la compétence ou son modèle.
+- Récupération des informations de patch, monitoring, notes et plans depuis les fiches des groupes, selon leur contenu et leur lisibilité. Les plans sont retrouvés dans le projet et dans StageMark.
+- Liste de matériel modifiable et exportable en Word, ODT et PDF.
+- Projet local et Session StageFlow LIVE pour les échanges de la suite ; télécommandes mobiles et commandes OSC, MIDI et Stream Deck.
 
-**2027.1.11:** a quieter native layout on Windows and Mac, with left-hand groups, more central table space, a foldable Project/Spreadsheet inspector and a compact strip for all six integrations. Existing themes, languages, settings and29 external commands are retained. Windows was locally built, installed and checked; actual ARM DMG startup/project/normal quit was checked nonvisually. Intel was cross-built and statically inspected only. [Windows qualification](QUALIFICATION-WINDOWS-2027.1.11.md) · [Mac qualification](QUALIFICATION-MACOS-2027.1.11.md) · [SHA-256 / checksums](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.11/SHA256SUMS-2027.1.11-all-platforms.txt).
+Le traitement local des fiches reste une aide à la préparation : contrôlez le résultat avant exploitation. Les connexions des autres logiciels et le connecteur AutoCAD facultatif conservent leurs conditions propres décrites dans les notices.
 
-Plugins Stream Deck2026.3.1.0 : [Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.11/SiLeMIO-StageFlow.streamDeckPlugin) · [macOS](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.11/SiLeMIO-StageFlow-Mac.streamDeckPlugin). [Aide des29 commandes / 29-command help](EXTERNAL-CONTROLS.md).
+## Notices à jour — français et anglais
 
-Windows Setup non signé / unsigned. Mac : signature ad-hoc, sans Developer ID ni notarisation Apple. Matériel Stream Deck/MIDI, audio, projection et réseau entre postes non qualifiés / physical hardware and cross-machine networking unqualified. V1 reste par défaut / remains default ; V2 reste une copie locale explicite sans échanges réseau/LIVE/AutoCAD.
+- [Notice StageFlow — français](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.18/StageFlow-Notice-FR.pdf)
+- [StageFlow user guide — English](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.18/StageFlow-User-Guide-EN.pdf)
+- [Guide de la suite — français](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.18/Guide-Suite-SiLeMIO-FR.pdf)
+- [Suite guide — English](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.18/SiLeMIO-Suite-Guide-EN.pdf)
 
-### Historique 2027.1.10 — résultats précédents / Previous-release evidence
-
-**Livraison précédente 2027.1.10 / Previous release:** 29 commandes OSC, MIDI et Stream Deck, avec pause/reprise des alertes LIVE, reprise avec envoi volontaire des changements en pause et acquittement local. Le plugin Stream Deck 2026.3.1.0 attend la confirmation de StageFlow ; mettre à jour l'application et le plugin ensemble. Reprendre seul ne rejoue rien. Les quatre PDF approuvés restent inchangés ; [l'aide complémentaire](EXTERNAL-CONTROLS.md) décrit les cinq nouvelles commandes et une disposition de 15 touches. [Notes FR/EN](RELEASE_NOTES_2027.1.10.md).
-
-Plugins Stream Deck 2026.3.1.0 : [Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.10/SiLeMIO-StageFlow.streamDeckPlugin) · [macOS](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.10/SiLeMIO-StageFlow-Mac.streamDeckPlugin). [Toutes les sommes SHA-256 / All checksums](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.10/SHA256SUMS-2027.1.10-all-platforms.txt).
-
-Windows source `32c4890` : véritable installeur vérifié, commandes OSC et journal de labels exercés, mise à jour personnelle contrôlée avec conservation des réglages/projet/classeurs et fermeture normale. Mac source `d3bcbd3` : rendu OpenGL avec repli logiciel, évitant le chemin Metal qui échouait pendant la qualification ; véritable DMG Apple Silicon monté, ouverture avec/sans projet et fermeture normale vérifiées sans recette visuelle. Intel construit et inspecté, sans exécution native Intel. [Qualification Windows](QUALIFICATION-WINDOWS-2027.1.10.md) · [Qualification Mac](QUALIFICATION-MACOS-2027.1.10.md) · [SHA-256 Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.10/SHA256SUMS-2027.1.10-Windows.txt).
-
-**2027.1.10:** 29 OSC, MIDI and Stream Deck commands, including LIVE-alert pause/resume, explicit sending of paused changes and local acknowledgement. Matching plugin 2026.3.1.0 waits for StageFlow confirmation. Resume alone never replays paused changes. Mac uses OpenGL with software fallback; actual Apple Silicon DMG startup/project/normal shutdown were checked nonvisually. Intel was cross-built and statically inspected only. Approved PDFs remain unchanged; see the external-controls addendum for the five additions. Physical Stream Deck/MIDI, projection, audio and cross-machine networking are not certified by this release. Windows Setup is unsigned; Mac is ad-hoc signed, without Developer ID or Apple notarization. V1 remains the default; V2 requires an explicit local copy and does not support network/LIVE/AutoCAD exchanges.
-
-### Historique 2027.1.9 — résultats de la livraison précédente / Previous-release evidence
-
-**Livraison précédente 2027.1.9 / Previous release:** Windows corrige la fermeture en une seule demande ; copie locale, enregistrement, réouverture et remplacement personnel vérifiés sur le nouvel installeur. Windows source `c855b18` ; Mac existants source `bbd980c`, inchangés. [Qualification et limites FR/EN](QUALIFICATION-WINDOWS-2027.1.9.md) · [SHA-256 Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.9/SHA256SUMS-2027.1.9-Windows.txt). V1 reste par défaut ; V2 exige une copie locale explicite et ne prend pas en charge les échanges réseau/LIVE/AutoCAD. Windows Setup is unsigned; Mac uses ad-hoc signing, without Developer ID or notarization. See the qualification for separate Windows and Mac evidence and limits.
-
-### Historique 2027.1.8 — résultats de la livraison précédente / Previous-release evidence
-
-**Windows 2027.1.8** : le panneau **Tableur** détecte les changements sans transfert automatique. Cliquez sur **Mettre à jour…**, comparez et choisissez séparément chaque conflit ; annuler conserve les saisies. Commun reste modifiable, les revues périmées sont rejetées, une copie précède le transfert et un échec permet une nouvelle comparaison. Patch complet au recto, Monitoring/Notes au verso conservés. [Mode d'emploi](Monitoring-Notes-Excel.md) · [Notes](RELEASE_NOTES_2027.1.8.md) · [Contrôles et limites](QUALIFICATION-WINDOWS-2027.1.8.md).
-
-**41 nouveaux essais Excel/WPF sur les DLL livrées réussis**, vrai Setup extrait et quatre pages PDF examinées. Choix de conflits injectés par QA ; pas de recette exhaustive des clics/clavier/DPI ou du matériel. Installation personnelle documentée après publication dans un reçu privé séparé ; restauration non exercée. Enregistrez le projet et le classeur séparément. La liaison exige Excel de bureau Windows et ne reprend pas automatiquement au démarrage. macOS **2027.1.8** corrige la concurrence entre sauvegarde LIVE automatique et sauvegarde explicite. Provenance Mac : `c8e31774d9c6a9551012fd23d680271634717a4e`, distincte du Windows livré. Qualification et empreintes : [qualification Mac et SHA-256](https://github.com/Mamat79/StageFlow/releases/tag/v2027.1.8). La liaison Excel de bureau reste réservée à Windows.
-
-**Windows 2027.1.8**: the **Spreadsheet** panel detects pending changes without automatic transfer. Click **Update…**, review and choose each conflict separately; cancel retains both versions. Commun remains editable, stale reviews are rejected, a copy precedes transfer and failures permit a fresh review. Complete patch on the front and Monitoring/Notes on the back are retained. **41 new Excel/WPF checks passed on delivered DLLs**, actual Setup extracted and four PDF pages visually checked. Conflict choices are injected by QA; not exhaustive human mouse/keyboard/DPI or hardware acceptance. Personal installation is documented separately after publication, rollback unexercised. Save project and workbook separately; desktop Windows Excel is required and the link never reconnects automatically. Mac **2027.1.8** fixes concurrent LIVE automatic and explicit saves. Mac source: `c8e31774d9c6a9551012fd23d680271634717a4e`, distinct from the Windows package. Qualification and checksums: [qualification Mac et SHA-256](https://github.com/Mamat79/StageFlow/releases/tag/v2027.1.8). Desktop Excel linking remains Windows-only.
-
----
-
-## Découvrir la suite en vidéo
-
-[![Présentation de la suite SiLeMIO](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-fr-poster.png)](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-fr.mp4)
-
-[La suite - FR](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-fr.mp4) ·
-[Sous-titres FR](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-fr.vtt) ·
-[Suite video - EN](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-en.mp4) ·
-[EN captions](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-en.vtt)
-
-[StageFlow en 30 secondes - FR](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/stageflow-presentation-fr.mp4) ·
-[StageFlow in 30 seconds - EN](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/stageflow-presentation-en.mp4)
-
-Vidéos de découverte sans voix générée, avec captures de l'édition v2026.
-Consultez les guides v2027 pour les écrans et limites de la nouvelle édition.
-Discovery videos use v2026 screenshots; the v2027 guides describe this release.
-
-## StageFlow, à quoi ça sert ?
-
-StageFlow est un logiciel de préparation pour le show, la captation, le
-broadcast et l'événementiel. Il rassemble dans un même projet le patch de
-scène, les paires communes, les groupes de travail et un plan simple.
-
-L'objectif est direct : **préparer une seule fois, imprimer ce dont chaque
-équipe a besoin et éviter de ressaisir les mêmes informations dans plusieurs
-logiciels**.
-
-StageFlow peut être utilisé seul. Il peut aussi devenir le centre d'un flux
-partagé avec StageDesk, StageMark, StageMon, Dante Config Editor et AutoCAD.
-Chaque logiciel reste autonome et vous installez uniquement ceux dont vous avez
-besoin.
-
-## Un exemple concret
-
-Vous préparez une scène avec 40 paires, cinq groupes et plusieurs lignes
-communes :
-
-1. choisissez le nombre de paires et de groupes — les choix rapides avancent
-   par blocs de 20, mais vous pouvez saisir librement une autre valeur ;
-2. saisissez les sources, micros et commentaires dans le tableau ;
-3. placez les lignes communes dans la section partagée, puis décidez dans
-   chaque groupe quelles paires communes doivent apparaître ;
-4. utilisez le copier-coller ou tirez une sélection vers le bas pour prolonger
-   une liste ;
-5. exportez un classeur Excel avec une feuille par groupe et choisissez le papier et la pagination ;
-6. dessinez les premiers éléments du plan ou poursuivez le travail dans
-   AutoCAD ;
-7. ouvrez le même projet dans les autres logiciels SiLeMIO si vous en avez
-   besoin.
-
-Vous gardez ainsi un seul dossier de projet au lieu de plusieurs documents qui
-finissent par se contredire.
-
-## Construire un patch à votre taille
-
-- Choisir librement de 1 à 800 paires, avec des raccourcis 20, 40, 60, etc.
-- Créer de 1 à 50 groupes.
-- Ajouter des paires communes à tous les groupes.
-- Voir les valeurs communes directement dans chaque groupe.
-- Afficher ou masquer chaque paire commune, séparément pour chaque groupe.
-- Utiliser **Tout afficher** ou **Tout masquer** pour régler un groupe en un clic.
-- Modifier les cellules comme dans un tableur.
-- Utiliser **Entrée** pour descendre et **Tab** pour passer à la cellule
-  suivante, immédiatement prête à saisir.
-- Copier et coller depuis ou vers Excel.
-- Recopier une valeur ou prolonger une suite en tirant vers le bas.
-
-## Préparer des feuilles faciles à imprimer
-
-StageFlow génère un classeur Excel organisé par groupe. Chaque groupe possède
-sa propre feuille. Sous Windows, choisissez A4, A3 ou un format proposé par
-l'imprimante, puis une page par groupe ou plusieurs pages avec les titres répétés.
-Pour un grand patch, le mode multipage évite une réduction excessive ; vérifiez
-l'aperçu Excel avant d'imprimer ou d'exporter en PDF. Les
-paires communes masquées dans un groupe restent également absentes de sa page,
-tandis que les valeurs propres à ce groupe sont conservées.
-
-Le résultat peut être corrigé dans Excel, imprimé, envoyé ou réimporté dans
-StageFlow. Le libellé est **Balances** en français et **Sound check** en
-anglais. Modifiez les noms de groupes et les horaires directement dans l'onglet
-Commun : les pages imprimées les reprennent et StageFlow les conserve au réimport.
-
-La **[notice StageFlow](https://www.silemio.com/logiciels/stageflow#guides)**
-explique le logiciel pas à pas. Le bouton **Guide** l'ouvre dans votre langue ;
-**Aide → Guide de la suite** présente les échanges avec les autres applications.
-
-## Dessiner un plan de scène
-
-L'éditeur de plan permet de poser les éléments essentiels d'une implantation,
-d'exporter une image et de garder le plan avec le patch du show.
-
-Si AutoCAD 2026 pour Windows est installé, le connecteur optionnel ajoute l'onglet
-**SILEMI/O** et la commande **Patch StageFlow** pour poursuivre le plan
-technique dans AutoCAD.
-
-## Mode LIVE ou travail manuel
-
-Sous Windows, ouvrez **Connexion StageFlow** (sur Mac : **Session StageFlow LIVE**)
-lorsque StageFlow doit coordonner le show. Les pages
-de groupes, labels, micros, commentaires et choix de paires communes sont alors
-publiés automatiquement et les logiciels compatibles suivent le projet en
-temps réel.
-
-Coupez LIVE à tout moment pour revenir à un fonctionnement entièrement manuel :
-**Enregistrer** et **Recharger** restent sous votre contrôle et chaque logiciel
-continue de fonctionner seul. Une mise à jour StageMark ne déclenche jamais une
-projection et une mise à jour Dante ne commande jamais le réseau en direct.
-
-Sur plusieurs ordinateurs, StageFlow héberge le show sous Windows ou macOS. Chaque
-logiciel compatible choisit volontairement cette session sur le réseau local
-et entre le code à six chiffres. Le centre distingue les postes, logiciels et
-mobiles connectés. Une déconnexion ne provoque pas de reconnexion automatique.
-
-Les **alertes de labels** peuvent prévenir l'équipe pendant l'exploitation :
-ancien nom, nouveau nom, origine et heure restent visibles jusqu'à
-l'acquittement local. Chaque destinataire les reçoit par défaut mais peut les
-désactiver pour lui seul. Le maître peut suspendre les notifications tout en
-gardant LIVE actif ; les modifications faites pendant la pause ne sont pas
-rejouées au retour.
-
-## Un QR code, toutes les télécommandes
-
-StageFlow peut devenir la console centrale du poste. Ouvrez **Connexion StageFlow
-> Téléphones et tablettes** sous Windows, ou **Session StageFlow LIVE** sur Mac,
-choisissez le réseau du téléphone et scannez un seul QR code. Le portail mobile
-propose :
-
-- le patch StageFlow, ses groupes et ses paires communes ;
-- la télécommande complète de StageMark dans un onglet dédié ;
-- la télécommande complète de StageMon dans un autre onglet.
-
-StageFlow réutilise les véritables contrôleurs de StageMark et StageMon : vous
-retrouvez les mêmes commandes et les mêmes sécurités. Un logiciel absent ou non
-connecté au show reste simplement indisponible. Jusqu’à 24 téléphones ou
-tablettes peuvent rejoindre la session simultanément, avec un acquittement des
-alertes de labels propre à chaque appareil. Arrêter la télécommande StageFlow
-révoque immédiatement la session.
-
-## Piloter la suite depuis OSC, MIDI ou Stream Deck
-
-StageFlow regroupe les commandes utiles de la suite dans un seul écran :
-
-- recevez des commandes OSC et choisissez les retours d’état à renvoyer ;
-- associez un bouton MIDI en l’actionnant une seule fois grâce au mode
-  d’apprentissage ;
-- installez directement le plugin Stream Deck fourni avec StageFlow ;
-- utilisez les mêmes commandes pour changer de groupe, avancer dans les cues,
-  lancer un BLACKOUT ou piloter les écoutes StageMon.
-
-Tout reste facultatif. StageFlow, StageMark et StageMon continuent de fonctionner
-seuls ; les commandes entre logiciels deviennent disponibles lorsqu’ils ont
-rejoint le même projet LIVE.
-
-## Un seul projet, plusieurs outils
-
-```mermaid
-flowchart LR
-    P[(Projet .stageflow)]
-    SF[StageFlow<br/>Patch + plan] <--> P
-    DESK[StageDesk<br/>Préparation console] <--> P
-    SM[StageMark<br/>Implantation + projection] <--> P
-    MON[StageMon<br/>Écoutes live] <--> P
-    DCE[Dante Config Editor<br/>Réseau Dante] <--> P
-    CAD[AutoCAD<br/>Plan technique] <--> P
-```
-
-Le projet `.stageflow` peut être sauvegardé, rouvert, copié sur un autre
-ordinateur ou archivé avec le reste du dossier de production. StageFlow est
-gratuit et facultatif : les autres logiciels peuvent ouvrir le projet commun
-sans que StageFlow soit lancé.
-
-📘 [Guide illustré en français](guides/Guide-Suite-SiLeMIO-FR.pdf) ·
-[Illustrated guide in English](guides/SiLeMIO-Suite-Guide-EN.pdf)
-
-- [StageDesk — transférer labels et réglages entre consoles et logiciels](https://github.com/Mamat79/StageDesk/releases/latest)
-- [StageMark — dessiner, implanter et projeter des repères](https://github.com/Mamat79/StageMark/releases)
-- [StageMon — préparer les écoutes et les piloter en direct](https://github.com/Mamat79/StageMon/releases/latest)
-- [Dante Config Editor — préparer un réseau Dante hors ligne](https://github.com/Mamat79/Dante-Config-Editor/releases/latest)
-
-## Installation Windows
-
-1. Ouvrez la [dernière version](https://github.com/Mamat79/StageFlow/releases/latest).
-2. Téléchargez `StageFlow-Setup.exe`.
-3. Lancez l'installateur.
-4. Cochez l'option AutoCAD uniquement si vous souhaitez installer le connecteur.
-
-Le raccourci est **StageFlow v2027**. L'installateur ne ferme pas automatiquement
-vos logiciels et préserve les projets et réglages utilisateur. Fermez StageFlow
-vous-même après avoir enregistré avant de remplacer une version ouverte.
-
-Le bouton **Guide** ouvre la notice de StageFlow dans votre langue.
-**Aide → Guide de la suite** ouvre le guide commun ; **Aide** et la touche **F1**
-ouvrent l'aide pratique de StageFlow. Le bandeau indique le thème
-actuel, la langue, la connexion et les alertes ; les commandes se replient sur
-une seconde ligne lorsque nécessaire. Les mises à jour sont accessibles dans
-StageFlow.
-
-## Installation macOS
-
-StageFlow v2027.1.12 est disponible pour **macOS 14 ou ultérieur**, en deux éditions
-autonomes : **Apple Silicon** (puces M) et **Intel**. Choisissez le téléchargement
-adapté en haut de cette page, ouvrez le DMG et glissez **StageFlow.app** dans
-Applications. Enregistrez et quittez une version déjà ouverte avant de la remplacer.
-Le premier affichage peut demander une dizaine de secondes sur certains Mac Intel.
-
-Préparez votre patch, votre classeur Excel et votre plan directement sur Mac,
-ou hébergez une Session StageFlow LIVE pour les autres postes du réseau local.
-Le mode compact garde la console sous la main ; sur un petit écran, la console
-se replie pour laisser de la place au patch. Le plugin Stream Deck Mac est inclus.
-
-📘 [Prise en main macOS — français et anglais](guides/StageFlow-macOS.html)
-complète les guides communs de la suite. Elle précise les raccourcis Mac, les
-commandes, les mises à jour et les différences d'ouverture des applications.
-
-**Sécurité et limites :** cette édition possède une signature d'intégrité
-ad-hoc, sans signature Developer ID ni notarisation Apple. macOS peut bloquer
-son ouverture : vérifiez la source officielle et suivez uniquement la procédure
-d'ouverture autorisée par macOS, sans désactiver ses protections globales.
-Le connecteur AutoCAD reste réservé à AutoCAD 2026 Windows. Vérifiez MIDI,
-Stream Deck, audio et projection sur votre propre matériel avant exploitation.
-Les éditions Windows et macOS 2027.1.2 partagent le même format de projet et le
-même contrat LIVE. Le connecteur AutoCAD reste réservé à Windows.
-
----
+Lot documentaire **2027.7**. Le bouton Guide de l’application ouvre sa notice. Le guide de suite reste accessible depuis l’aide.
 
 ## English
 
-### What is StageFlow for?
+StageFlow prepares group patches, monitoring circuits, notes and stage plans in one project. The full trial lasts 30 days. A permanent license costs €79 including VAT for Windows or macOS; the four-application StageFlow, StageDesk, StageMark and StageMon bundle costs €199 including VAT.
 
-StageFlow is a free offline preparation tool for live events, broadcast,
-recording and production work. It keeps the stage patch, shared lines, working
-groups and a simple stage plan in one project.
+On Windows, **Direct synchronization** exchanges committed edits between installed Excel and StageFlow without closing the workbook or rebuilding worksheets. Edit the patch on **Commun**. No additional plugin is required. Uncheck the option to retain updates on request. Conflicts pause the exchange until **Compare and resolve…** is completed; structural and supplement pagination changes require a manual update. Save both the project and workbook. This connection does not support browser Excel or direct linking on macOS.
 
-The goal is simple: **prepare the information once, print the right sheet for
-each team and avoid entering the same data in several applications**.
+Alert pause/resume offers one catch-up summary or silent resumption. Group and source-cell indicators identify pending label changes. The originating StageFlow device does not receive its own alert. Optional local AI import, editable equipment lists, stage plans and existing suite controls remain available; check imported proposals before live use.
 
-### Main features
+## Découvrir la suite en vidéo / Discovery videos
 
-- 1 to 800 pairs and 1 to 50 groups, with quick 20-pair increments.
-- Shared values visible directly inside individual groups.
-- Per-pair, per-group common-line visibility plus **Show all** and **Hide all**.
-- Spreadsheet-style editing, copy/paste and smart fill.
-- **Enter** moves down and **Tab** opens the next cell for immediate typing.
-- Excel export and refresh; on Windows, A4/A3 and other available paper sizes,
-  with one or multiple landscape pages per group and repeated headers.
-- Localized Excel labels: **Balances** in French and **Sound check** in English.
-- Built-in stage-plan editor and optional AutoCAD 2026 connector.
-- French and English interface with built-in help from **Help** or `F1`.
-- Local projects with no mandatory account, cloud or server.
+[La suite — FR](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-fr.mp4) · [Suite — EN](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-en.mp4) · [StageFlow — FR](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/stageflow-presentation-fr.mp4) · [StageFlow — EN](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/stageflow-presentation-en.mp4)
 
-StageFlow works on its own. The shared `.stageflow` project can also be opened
-by StageDesk, StageMark, StageMon, Dante Config Editor and AutoCAD. Every
-application remains fully standalone.
+Ces vidéos de découverte montrent l’édition v2026 ; les notices ci-dessus décrivent la version actuelle. / These discovery videos show v2026; the manuals above describe this release.
 
-An explicit **StageFlow LIVE session** lets StageFlow coordinate compatible
-applications, including computers on the same trusted local network. Each
-client joins voluntarily with the host's six-digit code; disconnection never
-silently reconnects. Turn LIVE off to restore manual Save/Reload operation.
+## Installation et qualification
 
-Persistent label alerts show the old and new source name, origin and time.
-Recipients receive them by default and acknowledge only their own alerts, or
-turn reception off locally. The host may pause notifications without stopping
-LIVE; changes made during the pause are not replayed.
+Windows 10 ou ultérieur ; macOS 14 ou ultérieur. Choisissez le DMG correspondant à l’architecture du Mac et copiez StageFlow.app dans Applications après avoir enregistré et quitté l’ancienne version.
 
-One QR code can also open a unified phone portal: StageFlow patch controls in
-the first tab, then the complete existing StageMark and StageMon remote
-interfaces. Up to 24 phones or tablets can join simultaneously, with independent
-label-alert acknowledgements. Each application keeps its own safety rules, and
-stopping the StageFlow remote revokes the session immediately.
+Le Setup Windows est non signé. Les applications Mac sont signées pour intégrité ad-hoc, sans signature Apple Developer ID ni notarisation. La qualification Mac native concerne Apple Silicon ; le paquet Intel est construit et inspecté sur Apple Silicon, sans test sur un Mac Intel physique. Les matériels audio, MIDI/Stream Deck, la projection et les réseaux physiques conservent leurs propres vérifications avant exploitation.
 
-**[Download the latest StageFlow release](https://github.com/Mamat79/StageFlow/releases/latest)**
+Ce dépôt contient les téléchargements, notices et documents publics. Le code source est conservé séparément. Les [publications précédentes](https://github.com/Mamat79/StageFlow/releases) restent disponibles.
 
-StageFlow also includes an OSC control centre, MIDI learn and an installable
-Stream Deck plugin. The same command set can change StageFlow groups, move
-through StageMark cues and operate the main StageMon listening controls while
-the applications share a LIVE project.
-
-On Windows 2027.1.2, **StageFlow connection** centralizes project/LIVE state,
-workstations and QR access. **Guide** opens the StageFlow product manual;
-**Help → Suite guide** opens the shared guide and **Help** opens practical help.
-The header shows the current theme and language; alert
-emission can be paused and resumed explicitly without replaying past changes.
-
-This public repository contains Windows and macOS downloads. The source code is
-maintained separately.
-
-### Install on Mac
-
-**macOS 14 or later** is supported by StageFlow v2027.1.12, with separate
-[Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.12/StageFlow-2027.1.12-macos-arm64.dmg)
-and [Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.12/StageFlow-2027.1.12-macos-x64.dmg)
-downloads. Open the matching DMG and drag **StageFlow.app** into Applications.
-Save and quit any previous version before replacing it.
-The first window may take about ten seconds to appear on some Intel Macs.
-
-Prepare patches, Excel workbooks and plans on Mac, or host a StageFlow LIVE
-session for compatible Windows and Mac clients on your local network. The
-suite console folds on small displays to keep the patch usable and remains
-accessible in compact mode. The Mac Stream Deck plugin is included.
-
-[Getting started on macOS — English / French](guides/StageFlow-macOS.html)
-supplements the shared suite guides and explains Mac shortcuts, updates and
-application-launch differences.
-
-**Security and limits:** this edition is ad-hoc integrity-signed, not Developer
-ID signed or Apple-notarized. macOS may block it: verify the official source
-and use only the opening procedure permitted by macOS, without disabling
-system-wide protection. The AutoCAD connector remains Windows-only. Check
-MIDI, Stream Deck, audio and projection on your own hardware before live use.
-The Windows and macOS 2027.1.2 editions use the same project format and LIVE
-contract. The AutoCAD connector remains Windows-only.
-
----
-
-<p align="center"><strong>SiLeMIO · By Mamat----[]---</strong></p>
-
-
-## Historique — qualification macOS 2027.1.8
-
-**Qualification Mac :** 42 tests Mac et 424 tests au total ont réussi sur le runner Apple Silicon. Le véritable DMG ARM a été monté et son application démarrée avec un projet, sans recette visuelle. Les deux paquets autonomes .NET 10 exigent macOS 14 ou ultérieur ; leurs architectures et les quatre guides approuvés ont été vérifiés. Le paquet Intel a été construit sur Apple Silicon et inspecté, sans exécution sur un Mac Intel. Signatures d’intégrité ad-hoc vérifiées, sans Developer ID ni notarisation Apple. Pas de recette complète des clics/clavier, du matériel MIDI/Stream Deck ou du réseau physique. La liaison Excel de bureau reste réservée à Windows.
-
-**Mac qualification:** 42 Mac tests and 424 tests overall passed on the Apple Silicon runner. The actual ARM DMG was mounted and its application started with a project; this was a nonvisual launch. Both self-contained .NET 10 packages require macOS 14 or later; architectures and the four approved guides were verified. The Intel package was built on Apple Silicon and structurally inspected, without execution on a native Intel Mac. Ad-hoc integrity signatures were verified; no Apple Developer ID signing or notarization. Full mouse/keyboard, physical MIDI/Stream Deck and physical network acceptance were not performed. Desktop Excel linking remains Windows-only.
-
-**SHA-256 des DMG / DMG checksums**
-
-```text
-226f352aa94e2311b1b6404f411a24c6f0a6aefc5e2edeb37fe394ec7f37d82f  StageFlow-2027.1.8-macos-arm64.dmg
-cca23c26b6467b716af739b7312ace29e8909480fe9f4922b343ef6125902955  StageFlow-2027.1.8-macos-x64.dmg
-```
-
-
+**SiLeMIO · By Mamat----[]---**
