@@ -49,9 +49,9 @@ Alert pause/resume offers one catch-up summary or silent resumption. Group and s
 
 ## Découvrir la suite en vidéo / Discovery videos
 
-[La suite — FR](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-fr.mp4) · [Suite — EN](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-en.mp4) · [StageFlow — FR](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/stageflow-presentation-fr.mp4) · [StageFlow — EN](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/stageflow-presentation-en.mp4)
+[La suite — FR](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.18/silemio-suite-v2026.3-fr.mp4) · [Suite — EN](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.18/silemio-suite-v2026.3-en.mp4) · [StageFlow — FR](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.18/stageflow-presentation-v2026.3-fr.mp4) · [StageFlow — EN](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.18/stageflow-presentation-v2026.3-en.mp4)
 
-Ces vidéos de découverte montrent l’édition v2026 ; les notices ci-dessus décrivent la version actuelle. / These discovery videos show v2026; the manuals above describe this release.
+Ces vidéos de découverte montrent l’édition v2026.3, conservée comme présentation historique ; les notices ci-dessus décrivent la version actuelle. / These discovery videos show v2026; the manuals above describe this release.
 
 ## Installation et qualification
 
