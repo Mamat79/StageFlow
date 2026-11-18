@@ -1,16 +1,20 @@
 <p align="center"><img src="stageflow-logo.png" alt="StageFlow" width="680"></p>
 
-# StageFlow 2027.1.18
+# StageFlow 2027.1.19
 
 Préparez les patchs, les retours, les notes et les plans de scène dans un même projet.
 
 **Essai complet de 30 jours, puis licence permanente à 79 € TTC pour Windows ou macOS.** Le pack StageFlow, StageDesk, StageMark et StageMon coûte 199 € TTC. L’achat peut être réalisé sans compte et rattaché ensuite à un compte après vérification de l’adresse de commande.
 
-**[Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.18/StageFlow-Setup.exe)** · **[Mac Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.18/StageFlow-2027.1.18-macos-arm64.dmg)** · **[Mac Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.18/StageFlow-2027.1.18-macos-x64.dmg)**
+**[Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.19/StageFlow-Setup.exe)** · **[Mac Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.19/StageFlow-2027.1.19-macos-arm64.dmg)** · **[Mac Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.19/StageFlow-2027.1.19-macos-x64.dmg)**
 
-[Site SiLeMIO](https://www.silemio.com/logiciels/stageflow) · [Notes de version FR/EN](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.18/RELEASE_NOTES_2027.1.18.md) · [Publication et fichiers de contrôle](https://github.com/Mamat79/StageFlow/releases/tag/v2027.1.18)
+[Site SiLeMIO](https://www.silemio.com/logiciels/stageflow) · [Notes de version FR/EN](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.19/RELEASE_NOTES_2027.1.19.md) · [Publication et fichiers de contrôle](https://github.com/Mamat79/StageFlow/releases/tag/v2027.1.19)
 
 ## Dans cette version
+
+- **Panneaux modulables.** Sur Windows, déplacez ou détachez Groupes, Patch et Projet · Tableur depuis Affichage. Sur Mac, déplacez ou détachez Projet · Tableur. La disposition est mémorisée et peut être réinitialisée.
+- **Dépannage du QR code.** Sous le code de la télécommande, retrouvez les étapes Android et iPhone/iPad. Les notices FR et EN détaillent le dépannage.
+
 
 - **Excel direct sur Windows.** Connectez Excel installé sur le PC, puis laissez **Synchronisation directe** cochée. Les saisies validées passent dans les deux sens sans fermer le classeur ni recréer ses feuilles. Modifiez le patch dans **Commun**. Aucun complément à installer. Le mode manuel reste disponible en décochant la case.
 - **Conflits explicites.** Si les deux côtés modifient différemment le même champ, le direct se suspend. **Comparer et résoudre…** permet de choisir les valeurs à conserver. Les changements de structure et de pagination des notes nécessitent une mise à jour manuelle. Enregistrez le projet et le classeur pour conserver leurs données sur disque. Le temps d’échange dépend du projet et d’Excel.
@@ -32,12 +36,12 @@ Le traitement local des fiches reste une aide à la préparation : contrôlez le
 
 ## Notices à jour — français et anglais
 
-- [Notice StageFlow — français](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.18/StageFlow-Notice-FR.pdf)
-- [StageFlow user guide — English](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.18/StageFlow-User-Guide-EN.pdf)
-- [Guide de la suite — français](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.18/Guide-Suite-SiLeMIO-FR.pdf)
-- [Suite guide — English](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.18/SiLeMIO-Suite-Guide-EN.pdf)
+- [Notice StageFlow — français](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.19/StageFlow-Notice-FR.pdf)
+- [StageFlow user guide — English](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.19/StageFlow-User-Guide-EN.pdf)
+- [Guide de la suite — français](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.19/Guide-Suite-SiLeMIO-FR.pdf)
+- [Suite guide — English](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.19/SiLeMIO-Suite-Guide-EN.pdf)
 
-Lot documentaire **2027.7**. Le bouton Guide de l’application ouvre sa notice. Le guide de suite reste accessible depuis l’aide.
+Lot documentaire **2027.8**. Le bouton Guide de l’application ouvre sa notice. Le guide de suite reste accessible depuis l’aide.
 
 ## English
 
