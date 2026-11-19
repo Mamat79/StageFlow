@@ -1,16 +1,19 @@
 <p align="center"><img src="stageflow-logo.png" alt="StageFlow" width="680"></p>
 
-# StageFlow 2027.1.20
+# StageFlow 2027.1.21
 
 Préparez les patchs, les retours, les notes et les plans de scène dans un même projet.
 
 **Essai complet de 30 jours, puis licence permanente à 79 € TTC pour Windows ou macOS.** Le pack StageFlow, StageDesk, StageMark et StageMon coûte 199 € TTC. L’achat peut être réalisé sans compte et rattaché ensuite à un compte après vérification de l’adresse de commande.
 
-**[Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.20/StageFlow-Setup.exe)** · **[Mac Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.20/StageFlow-2027.1.20-macos-arm64.dmg)** · **[Mac Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.20/StageFlow-2027.1.20-macos-x64.dmg)**
+**[Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.21/StageFlow-Setup.exe)** · **[Mac Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.21/StageFlow-2027.1.21-macos-arm64.dmg)** · **[Mac Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.21/StageFlow-2027.1.21-macos-x64.dmg)**
 
-[Site SiLeMIO](https://www.silemio.com/logiciels/stageflow) · [Notes de version FR/EN](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.20/RELEASE_NOTES_2027.1.20.md) · [Publication et fichiers de contrôle](https://github.com/Mamat79/StageFlow/releases/tag/v2027.1.20)
+[Site SiLeMIO](https://www.silemio.com/logiciels/stageflow) · [Notes de version FR/EN](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.21/RELEASE_NOTES_2027.1.21.md) · [Publication et fichiers de contrôle](https://github.com/Mamat79/StageFlow/releases/tag/v2027.1.21)
 
 ## Dans cette version
+
+- **Rejoindre une session LIVE.** Sur un autre poste, choisissez le projet diffusé et saisissez le code à six chiffres. Le patch distant se met à jour en lecture seule.
+
 
 - **Plan de groupe éditable.** La fiche technique sert de fond. Ajoutez les micros choisis et simplifiez les tracés dans le même projet local partagé avec StageMark.
 - **Commun à la demande.** Les nouvelles paires et les nouveaux groupes démarrent avec la case décochée.
@@ -39,10 +42,10 @@ Le traitement local des fiches reste une aide à la préparation : contrôlez le
 
 ## Notices à jour — français et anglais
 
-- [Notice StageFlow — français](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.20/StageFlow-Notice-FR.pdf)
-- [StageFlow user guide — English](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.20/StageFlow-User-Guide-EN.pdf)
-- [Guide de la suite — français](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.20/Guide-Suite-SiLeMIO-FR.pdf)
-- [Suite guide — English](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.20/SiLeMIO-Suite-Guide-EN.pdf)
+- [Notice StageFlow — français](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.21/StageFlow-Notice-FR.pdf)
+- [StageFlow user guide — English](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.21/StageFlow-User-Guide-EN.pdf)
+- [Guide de la suite — français](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.21/Guide-Suite-SiLeMIO-FR.pdf)
+- [Suite guide — English](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.21/SiLeMIO-Suite-Guide-EN.pdf)
 
 Lot documentaire **2027.8**. Le bouton Guide de l’application ouvre sa notice. Le guide de suite reste accessible depuis l’aide.
 
