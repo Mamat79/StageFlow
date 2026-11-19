@@ -1,14 +1,14 @@
 <p align="center"><img src="stageflow-logo.png" alt="StageFlow" width="680"></p>
 
-# StageFlow — Windows 2027.1.22 · macOS 2027.1.21
+# StageFlow — Windows 2027.1.23 · macOS 2027.1.21
 
 Préparez les patchs, les retours, les notes et les plans de scène dans un même projet.
 
 **Essai complet de 30 jours, puis licence permanente à 79 € TTC pour Windows ou macOS.** Le pack StageFlow, StageDesk, StageMark et StageMon coûte 199 € TTC. L’achat peut être réalisé sans compte et rattaché ensuite à un compte après vérification de l’adresse de commande.
 
-**[Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.22/StageFlow-Setup.exe)** · **[Mac Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.21/StageFlow-2027.1.21-macos-arm64.dmg)** · **[Mac Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.21/StageFlow-2027.1.21-macos-x64.dmg)**
+**[Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.23/StageFlow-Setup.exe)** · **[Mac Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.21/StageFlow-2027.1.21-macos-arm64.dmg)** · **[Mac Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.21/StageFlow-2027.1.21-macos-x64.dmg)**
 
-[Site SiLeMIO](https://www.silemio.com/logiciels/stageflow) · [Notes de version FR/EN](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.22/RELEASE_NOTES_2027.1.22.md) · [Publication et fichiers de contrôle](https://github.com/Mamat79/StageFlow/releases/tag/v2027.1.22)
+[Site SiLeMIO](https://www.silemio.com/logiciels/stageflow) · [Notes de version FR/EN](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.23/RELEASE_NOTES_2027.1.23.md) · [Publication et fichiers de contrôle](https://github.com/Mamat79/StageFlow/releases/tag/v2027.1.23)
 
 ## Dans cette version
 
