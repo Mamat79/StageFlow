@@ -1,16 +1,19 @@
 <p align="center"><img src="stageflow-logo.png" alt="StageFlow" width="680"></p>
 
-# StageFlow 2027.1.21
+# StageFlow — Windows 2027.1.22 · macOS 2027.1.21
 
 Préparez les patchs, les retours, les notes et les plans de scène dans un même projet.
 
 **Essai complet de 30 jours, puis licence permanente à 79 € TTC pour Windows ou macOS.** Le pack StageFlow, StageDesk, StageMark et StageMon coûte 199 € TTC. L’achat peut être réalisé sans compte et rattaché ensuite à un compte après vérification de l’adresse de commande.
 
-**[Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.21/StageFlow-Setup.exe)** · **[Mac Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.21/StageFlow-2027.1.21-macos-arm64.dmg)** · **[Mac Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.21/StageFlow-2027.1.21-macos-x64.dmg)**
+**[Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.22/StageFlow-Setup.exe)** · **[Mac Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.21/StageFlow-2027.1.21-macos-arm64.dmg)** · **[Mac Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.21/StageFlow-2027.1.21-macos-x64.dmg)**
 
-[Site SiLeMIO](https://www.silemio.com/logiciels/stageflow) · [Notes de version FR/EN](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.21/RELEASE_NOTES_2027.1.21.md) · [Publication et fichiers de contrôle](https://github.com/Mamat79/StageFlow/releases/tag/v2027.1.21)
+[Site SiLeMIO](https://www.silemio.com/logiciels/stageflow) · [Notes de version FR/EN](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.22/RELEASE_NOTES_2027.1.22.md) · [Publication et fichiers de contrôle](https://github.com/Mamat79/StageFlow/releases/tag/v2027.1.22)
 
 ## Dans cette version
+
+- **StageFlow LIVE sur deux PC Windows.** Depuis l’aperçu, choisissez **Basculer dans la session LIVE** pour ouvrir le projet partagé, modifier son patch et gérer vos alertes.
+
 
 - **Rejoindre une session LIVE.** Sur un autre poste, choisissez le projet diffusé et saisissez le code à six chiffres. Le patch distant se met à jour en lecture seule.
 
