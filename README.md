@@ -1,14 +1,18 @@
 <p align="center"><img src="stageflow-logo.png" alt="StageFlow" width="680"></p>
 
-# StageFlow — Windows 2027.1.24 · macOS 2027.1.25
+# StageFlow — Windows 2027.1.26 · macOS 2027.1.25
 
 Préparez les patchs, les retours, les notes et les plans de scène dans un même projet.
 
 **Essai complet de 30 jours, puis licence permanente à 79 € TTC pour Windows ou macOS.** Le pack StageFlow, StageDesk, StageMark et StageMon coûte 199 € TTC. L’achat peut être réalisé sans compte et rattaché ensuite à un compte après vérification de l’adresse de commande.
 
-**[Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.24/StageFlow-Setup.exe)** · **[Mac Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.25/StageFlow-2027.1.25-macos-arm64.dmg)** · **[Mac Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.25/StageFlow-2027.1.25-macos-x64.dmg)**
+**[Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.26/StageFlow-Setup.exe)** · **[Mac Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.25/StageFlow-2027.1.25-macos-arm64.dmg)** · **[Mac Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.1.25/StageFlow-2027.1.25-macos-x64.dmg)**
 
-[Site SiLeMIO](https://www.silemio.com/logiciels/stageflow) · [Notes Windows FR/EN](https://github.com/Mamat79/StageFlow/releases/tag/v2027.1.24) · [Notes macOS FR/EN](https://github.com/Mamat79/StageFlow/releases/tag/v2027.1.25)
+[Site SiLeMIO](https://www.silemio.com/logiciels/stageflow) · [Notes Windows FR/EN](https://github.com/Mamat79/StageFlow/releases/tag/v2027.1.26) · [Notes macOS FR/EN](https://github.com/Mamat79/StageFlow/releases/tag/v2027.1.25)
+
+**Windows 2027.1.26** permet d’importer une sélection de fiches ou un dossier avec ses sous-dossiers. L’onglet **Plan de scène** du groupe affiche l’image source. Ouvrez le plan pour la redimensionner, la régler ou vectoriser des contours. StageFlow et StageMark Windows partagent ces réglages de plan.
+
+**Windows 2027.1.26** imports a selection of riders or a folder with its subfolders. Find the original image in the group’s **Stage plan** tab. Open the plan to resize it, adjust it, or vectorize outlines. StageFlow and StageMark for Windows share these plan settings.
 
 ## Dans cette version
 
